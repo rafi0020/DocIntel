@@ -1,0 +1,37 @@
+{
+ "digital_batch": {
+  "pages": 1000,
+  "file_mb": 1.24,
+  "invoices_expected": 969,
+  "invoices_found": 969,
+  "invoices_matched": 969,
+  "field_accuracy_pct": 100.0,
+  "seconds": 3.94,
+  "pages_per_second": 254.1,
+  "stage_ms": {
+   "ingest": 1380,
+   "extract": 2535,
+   "validate": 15,
+   "total": 3931
+  },
+  "extractor": "rules"
+ },
+ "scanned_batch": {
+  "pages": 100,
+  "file_mb": 13.08,
+  "invoices_expected": 99,
+  "invoices_found": 98,
+  "invoices_matched": 97,
+  "field_accuracy_pct": 96.54,
+  "seconds": 53.12,
+  "seconds_per_page": 0.531,
+  "stage_ms": {
+   "ingest": 52827,
+   "extract": 270,
+   "validate": 1,
+   "total": 53099
+  },
+  "extractor": "rules"
+ },
+ "peak_rss_mb": 1532.1
+}

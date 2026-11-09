@@ -1,0 +1,2268 @@
+{
+ "seed": 99,
+ "n_invoices": 12,
+ "files": [
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "2026694006",
+     "invoice_date": "2026-04-21",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1742.94,
+     "tax": 139.44,
+     "total": 1882.38,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 5.0,
+       "unit_price": 123.74,
+       "amount": 618.7
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 291.0,
+       "unit_price": 0.64,
+       "amount": 186.24
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 16.0,
+       "unit_price": 21.35,
+       "amount": 341.6
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 24.0,
+       "unit_price": 24.85,
+       "amount": 596.4
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 2,
+   "date_format": "dmon",
+   "number_style": "eu",
+   "pages": null,
+   "file": "inv_000.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "2026694011",
+     "invoice_date": "2026-01-22",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Golden Years Home Care Agency",
+     "subtotal": 850.52,
+     "tax": 68.04,
+     "total": 918.56,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Personal care assistance",
+       "quantity": 8.0,
+       "unit_price": 21.24,
+       "amount": 169.92
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 12.0,
+       "unit_price": 28.22,
+       "amount": 338.64
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 2.0,
+       "unit_price": 170.98,
+       "amount": 341.96
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 2,
+   "date_format": "iso",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_001.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694018",
+     "invoice_date": "2026-03-24",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 657.62,
+     "tax": 32.88,
+     "total": 690.5,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 256.0,
+       "unit_price": 0.6,
+       "amount": 153.6
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 114.5,
+       "amount": 458.0
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 2.0,
+       "unit_price": 23.01,
+       "amount": 46.02
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 0,
+   "date_format": "dmon",
+   "number_style": "eu",
+   "pages": null,
+   "file": "inv_002.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "jpg",
+   "quality": "medium",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "HC/694023",
+     "invoice_date": "2026-02-14",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 506.27,
+     "tax": 40.5,
+     "total": 564.77,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Home health aide hours",
+       "quantity": 4.0,
+       "unit_price": 24.63,
+       "amount": 98.52
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 7.0,
+       "unit_price": 58.25,
+       "amount": 407.75
+      }
+     ]
+    }
+   ],
+   "planted_issues": [
+    "total_mismatch"
+   ],
+   "template": 2,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_003.jpg"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694028",
+     "invoice_date": "2026-07-01",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Cottage Home Care Services",
+     "subtotal": 131381.45,
+     "tax": 6569.07,
+     "total": 137950.52,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 1.0,
+       "unit_price": 12940.29,
+       "amount": 12940.29
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 8.0,
+       "unit_price": 2340.0,
+       "amount": 18720.0
+      },
+      {
+       "description": "Physical therapy session",
+       "quantity": 7.0,
+       "unit_price": 14245.88,
+       "amount": 99721.16
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 3,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_004.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "tiff",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "HC/694040",
+     "invoice_date": "2026-06-09",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Maple Grove Assisted Living",
+     "subtotal": 5118.85,
+     "tax": 255.94,
+     "total": 5374.79,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Home health aide hours",
+       "quantity": 12.0,
+       "unit_price": 29.17,
+       "amount": 350.04
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 151.0,
+       "unit_price": 0.52,
+       "amount": 78.52
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 6.0,
+       "unit_price": 19.65,
+       "amount": 117.9
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 3.0,
+       "unit_price": 27.52,
+       "amount": 82.56
+      },
+      {
+       "description": "Occupational therapy session",
+       "quantity": 1.0,
+       "unit_price": 107.21,
+       "amount": 107.21
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 1.0,
+       "unit_price": 234.36,
+       "amount": 234.36
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 7.0,
+       "unit_price": 161.88,
+       "amount": 1133.16
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 7.0,
+       "unit_price": 25.89,
+       "amount": 181.23
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 6.0,
+       "unit_price": 64.39,
+       "amount": 386.34
+      },
+      {
+       "description": "Incontinence supplies (case)",
+       "quantity": 3.0,
+       "unit_price": 60.78,
+       "amount": 182.34
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 6.0,
+       "unit_price": 226.6,
+       "amount": 1359.6
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 7.0,
+       "unit_price": 129.37,
+       "amount": 905.59
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 1,
+   "date_format": "dmy_long",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_005.tiff"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694046",
+     "invoice_date": "2026-06-14",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 4987.83,
+     "tax": 374.09,
+     "total": 5361.92,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 12.0,
+       "unit_price": 94.98,
+       "amount": 1164.76
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 5.0,
+       "unit_price": 59.1,
+       "amount": 295.5
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 2.0,
+       "unit_price": 37.06,
+       "amount": 74.12
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 7.0,
+       "unit_price": 390.95,
+       "amount": 2736.65
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 5.0,
+       "unit_price": 148.36,
+       "amount": 741.8
+      }
+     ]
+    }
+   ],
+   "planted_issues": [
+    "line_items_mismatch",
+    "line_item_arithmetic"
+   ],
+   "template": 0,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_006.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694055",
+     "invoice_date": "2026-04-29",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 529220.43,
+     "tax": 79383.06,
+     "total": 608603.49,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 7.0,
+       "unit_price": 2653.91,
+       "amount": 18577.37
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 4.0,
+       "unit_price": 19959.05,
+       "amount": 79836.2
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 11.0,
+       "unit_price": 17180.64,
+       "amount": 188987.04
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 6.0,
+       "unit_price": 3791.67,
+       "amount": 22750.02
+      },
+      {
+       "description": "Occupational therapy session",
+       "quantity": 4.0,
+       "unit_price": 13642.54,
+       "amount": 54570.16
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 361.0,
+       "unit_price": 58.78,
+       "amount": 21219.58
+      },
+      {
+       "description": "Incontinence supplies (case)",
+       "quantity": 11.0,
+       "unit_price": 4304.79,
+       "amount": 47352.69
+      },
+      {
+       "description": "Physical therapy session",
+       "quantity": 7.0,
+       "unit_price": 13703.91,
+       "amount": 95927.37
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 3,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_007.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "png",
+   "quality": "poor",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694057",
+     "invoice_date": "2026-09-19",
+     "supplier_name": "Mohakhali Pharma Distributors",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1632.69,
+     "tax": 81.63,
+     "total": 1714.32,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 1.0,
+       "unit_price": 106.99,
+       "amount": 106.99
+      },
+      {
+       "description": "Physical therapy session",
+       "quantity": 11.0,
+       "unit_price": 138.7,
+       "amount": 1525.7
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 1,
+   "date_format": "long",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_008.png"
+  },
+  {
+   "kind": "invoice",
+   "format": "jpg",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "2026694065",
+     "invoice_date": "2026-08-02",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 367571.62,
+     "tax": 0.0,
+     "total": 367571.62,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Overnight respite care",
+       "quantity": 10.0,
+       "unit_price": 25549.96,
+       "amount": 255499.6
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 22671.05,
+       "amount": 90684.2
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 2.0,
+       "unit_price": 8728.58,
+       "amount": 17457.16
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 58.0,
+       "unit_price": 67.77,
+       "amount": 3930.66
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 0,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_009.jpg"
+  },
+  {
+   "kind": "invoice",
+   "format": "jpg",
+   "quality": "medium",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "2026694072",
+     "invoice_date": "2026-04-02",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 1252.74,
+     "tax": 187.91,
+     "total": 1440.65,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 5.0,
+       "unit_price": 26.52,
+       "amount": 132.6
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 3.0,
+       "unit_price": 83.28,
+       "amount": 249.84
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 8.0,
+       "unit_price": 43.25,
+       "amount": 346.0
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 375.0,
+       "unit_price": 0.64,
+       "amount": 240.0
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 10.0,
+       "unit_price": 28.43,
+       "amount": 284.3
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 1,
+   "date_format": "dmon",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_010.jpg"
+  },
+  {
+   "kind": "invoice",
+   "format": "jpg",
+   "quality": "medium",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "INV-2026-694077",
+     "invoice_date": "2026-09-25",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 509276.34,
+     "tax": 40742.11,
+     "total": 550018.45,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 265.0,
+       "unit_price": 67.6,
+       "amount": 17914.0
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 11.0,
+       "unit_price": 40954.82,
+       "amount": 450503.02
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 8.0,
+       "unit_price": 3953.45,
+       "amount": 31627.6
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 3.0,
+       "unit_price": 3077.24,
+       "amount": 9231.72
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "template": 0,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "inv_011.jpg"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "2026694006",
+     "invoice_date": "2026-04-21",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1742.94,
+     "tax": 139.44,
+     "total": 1882.38,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 5.0,
+       "unit_price": 123.74,
+       "amount": 618.7
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 291.0,
+       "unit_price": 0.64,
+       "amount": 186.24
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 16.0,
+       "unit_price": 21.35,
+       "amount": 341.6
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 24.0,
+       "unit_price": 24.85,
+       "amount": 596.4
+      }
+     ]
+    }
+   ],
+   "planted_issues": [
+    "duplicate_invoice"
+   ],
+   "template": 2,
+   "date_format": "dmon",
+   "number_style": "eu",
+   "pages": null,
+   "file": "dup_0_inv_000.pdf",
+   "duplicate_of": "inv_000.pdf"
+  },
+  {
+   "kind": "invoice",
+   "format": "pdf",
+   "quality": "clean",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "A-694046",
+     "invoice_date": "2026-06-14",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 4987.83,
+     "tax": 374.09,
+     "total": 5361.92,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 12.0,
+       "unit_price": 94.98,
+       "amount": 1164.76
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 5.0,
+       "unit_price": 59.1,
+       "amount": 295.5
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 2.0,
+       "unit_price": 37.06,
+       "amount": 74.12
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 7.0,
+       "unit_price": 390.95,
+       "amount": 2736.65
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 5.0,
+       "unit_price": 148.36,
+       "amount": 741.8
+      }
+     ]
+    }
+   ],
+   "planted_issues": [
+    "duplicate_invoice"
+   ],
+   "template": 0,
+   "date_format": "mdy",
+   "number_style": "us",
+   "pages": null,
+   "file": "dup_1_inv_006.pdf",
+   "duplicate_of": "inv_006.pdf"
+  },
+  {
+   "kind": "ledger",
+   "format": "xlsx",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "HC/694023",
+     "invoice_date": "2026-02-14",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 506.27,
+     "tax": 40.5,
+     "total": 564.77,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694057",
+     "invoice_date": "2026-09-19",
+     "supplier_name": "Mohakhali Pharma Distributors",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1632.69,
+     "tax": 81.63,
+     "total": 1714.32,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694065",
+     "invoice_date": "2026-08-02",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 367571.62,
+     "tax": 0.0,
+     "total": 367671.62,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694011",
+     "invoice_date": "2026-01-22",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Golden Years Home Care Agency",
+     "subtotal": 850.52,
+     "tax": 68.04,
+     "total": 918.56,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694028",
+     "invoice_date": "2026-07-01",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Cottage Home Care Services",
+     "subtotal": 131381.45,
+     "tax": 6569.07,
+     "total": 137950.52,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694018",
+     "invoice_date": "2026-03-25",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 657.62,
+     "tax": 32.88,
+     "total": 690.5,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694055",
+     "invoice_date": "2026-04-30",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 529220.43,
+     "tax": 79383.06,
+     "total": 608603.49,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694046",
+     "invoice_date": "2026-06-14",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 4987.83,
+     "tax": 374.09,
+     "total": 5361.92,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694006",
+     "invoice_date": "2026-04-21",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1742.94,
+     "tax": 139.44,
+     "total": 1882.38,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694072",
+     "invoice_date": "2026-04-02",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 1252.74,
+     "tax": 187.91,
+     "total": 1440.65,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-694077",
+     "invoice_date": "2026-09-25",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 509276.34,
+     "tax": 40742.11,
+     "total": 550018.45,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "HC/694040",
+     "invoice_date": "2026-06-09",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Maple Grove Assisted Living",
+     "subtotal": 5118.85,
+     "tax": 255.94,
+     "total": 5374.79,
+     "currency": "EUR",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-9999",
+     "invoice_date": "2026-05-05",
+     "supplier_name": "Unknown Vendor Ltd",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 100.0,
+     "tax": 0.0,
+     "total": 100.0,
+     "currency": "USD",
+     "line_items": []
+    }
+   ],
+   "altered_rows": [
+    {
+     "invoice_number": "A-694018",
+     "field": "invoice_date"
+    },
+    {
+     "invoice_number": "A-694055",
+     "field": "invoice_date"
+    },
+    {
+     "invoice_number": "2026694065",
+     "field": "total"
+    }
+   ],
+   "sheets": [
+    "Cover",
+    "AP Ledger",
+    "Line Items"
+   ],
+   "planted_issues": [],
+   "file": "ledger_ap_2026.xlsx"
+  },
+  {
+   "kind": "ledger",
+   "format": "csv",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "HC/694023",
+     "invoice_date": "2026-02-14",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 506.27,
+     "tax": 40.5,
+     "total": 564.77,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694057",
+     "invoice_date": "2026-09-19",
+     "supplier_name": "Mohakhali Pharma Distributors",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1632.69,
+     "tax": 81.63,
+     "total": 1714.32,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694065",
+     "invoice_date": "2026-08-02",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 367571.62,
+     "tax": 0.0,
+     "total": 367671.62,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694011",
+     "invoice_date": "2026-01-22",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Golden Years Home Care Agency",
+     "subtotal": 850.52,
+     "tax": 68.04,
+     "total": 918.56,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694028",
+     "invoice_date": "2026-07-01",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Cottage Home Care Services",
+     "subtotal": 131381.45,
+     "tax": 6569.07,
+     "total": 137950.52,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694018",
+     "invoice_date": "2026-03-25",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 657.62,
+     "tax": 32.88,
+     "total": 690.5,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694055",
+     "invoice_date": "2026-04-30",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 529220.43,
+     "tax": 79383.06,
+     "total": 608603.49,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694046",
+     "invoice_date": "2026-06-14",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 4987.83,
+     "tax": 374.09,
+     "total": 5361.92,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694006",
+     "invoice_date": "2026-04-21",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1742.94,
+     "tax": 139.44,
+     "total": 1882.38,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694072",
+     "invoice_date": "2026-04-02",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 1252.74,
+     "tax": 187.91,
+     "total": 1440.65,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-694077",
+     "invoice_date": "2026-09-25",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 509276.34,
+     "tax": 40742.11,
+     "total": 550018.45,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "HC/694040",
+     "invoice_date": "2026-06-09",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Maple Grove Assisted Living",
+     "subtotal": 5118.85,
+     "tax": 255.94,
+     "total": 5374.79,
+     "currency": "EUR",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-9999",
+     "invoice_date": "2026-05-05",
+     "supplier_name": "Unknown Vendor Ltd",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 100.0,
+     "tax": 0.0,
+     "total": 100.0,
+     "currency": "USD",
+     "line_items": []
+    }
+   ],
+   "altered_rows": [
+    {
+     "invoice_number": "A-694018",
+     "field": "invoice_date"
+    },
+    {
+     "invoice_number": "A-694055",
+     "field": "invoice_date"
+    },
+    {
+     "invoice_number": "2026694065",
+     "field": "total"
+    }
+   ],
+   "planted_issues": [],
+   "file": "ledger_ap_2026.csv"
+  },
+  {
+   "kind": "ledger",
+   "format": "xls",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "HC/694023",
+     "invoice_date": "2026-02-14",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 506.27,
+     "tax": 40.5,
+     "total": 564.77,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694057",
+     "invoice_date": "2026-09-19",
+     "supplier_name": "Mohakhali Pharma Distributors",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1632.69,
+     "tax": 81.63,
+     "total": 1714.32,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694065",
+     "invoice_date": "2026-08-02",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 367571.62,
+     "tax": 0.0,
+     "total": 367671.62,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694011",
+     "invoice_date": "2026-01-22",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Golden Years Home Care Agency",
+     "subtotal": 850.52,
+     "tax": 68.04,
+     "total": 918.56,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694028",
+     "invoice_date": "2026-07-01",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Cottage Home Care Services",
+     "subtotal": 131381.45,
+     "tax": 6569.07,
+     "total": 137950.52,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694018",
+     "invoice_date": "2026-03-25",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 657.62,
+     "tax": 32.88,
+     "total": 690.5,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694055",
+     "invoice_date": "2026-04-30",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 529220.43,
+     "tax": 79383.06,
+     "total": 608603.49,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "A-694046",
+     "invoice_date": "2026-06-14",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 4987.83,
+     "tax": 374.09,
+     "total": 5361.92,
+     "currency": "GBP",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694006",
+     "invoice_date": "2026-04-21",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 1742.94,
+     "tax": 139.44,
+     "total": 1882.38,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "2026694072",
+     "invoice_date": "2026-04-02",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 1252.74,
+     "tax": 187.91,
+     "total": 1440.65,
+     "currency": "USD",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-694077",
+     "invoice_date": "2026-09-25",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 509276.34,
+     "tax": 40742.11,
+     "total": 550018.45,
+     "currency": "BDT",
+     "line_items": []
+    },
+    {
+     "invoice_number": "HC/694040",
+     "invoice_date": "2026-06-09",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Maple Grove Assisted Living",
+     "subtotal": 5118.85,
+     "tax": 255.94,
+     "total": 5374.79,
+     "currency": "EUR",
+     "line_items": []
+    },
+    {
+     "invoice_number": "INV-2026-9999",
+     "invoice_date": "2026-05-05",
+     "supplier_name": "Unknown Vendor Ltd",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 100.0,
+     "tax": 0.0,
+     "total": 100.0,
+     "currency": "USD",
+     "line_items": []
+    }
+   ],
+   "planted_issues": [],
+   "file": "ledger_q1.xls"
+  },
+  {
+   "kind": "batch",
+   "format": "pdf",
+   "expected": "ok",
+   "invoices": [
+    {
+     "invoice_number": "CG-2026-1044000",
+     "invoice_date": "2026-03-25",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 3281.25,
+     "tax": 246.09,
+     "total": 3527.34,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 75.67,
+       "amount": 302.68
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 7.0,
+       "unit_price": 397.91,
+       "amount": 2785.37
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 4.0,
+       "unit_price": 48.3,
+       "amount": 193.2
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044012",
+     "invoice_date": "2026-03-18",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Cottage Home Care Services",
+     "subtotal": 935.47,
+     "tax": 74.84,
+     "total": 1010.31,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Personal care assistance",
+       "quantity": 6.0,
+       "unit_price": 20.92,
+       "amount": 125.52
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 5.0,
+       "unit_price": 161.99,
+       "amount": 809.95
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044019",
+     "invoice_date": "2026-03-23",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Bayview Family Health",
+     "subtotal": 883.71,
+     "tax": 88.37,
+     "total": 972.08,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 7.0,
+       "unit_price": 87.93,
+       "amount": 615.51
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 10.0,
+       "unit_price": 26.82,
+       "amount": 268.2
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044026",
+     "invoice_date": "2026-05-12",
+     "supplier_name": "CarePoint Staffing Solutions LLC",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 285.11,
+     "tax": 42.77,
+     "total": 327.88,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 3.0,
+       "unit_price": 61.15,
+       "amount": 183.45
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 4.5,
+       "unit_price": 22.59,
+       "amount": 101.66
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044033",
+     "invoice_date": "2026-04-08",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 986.28,
+     "tax": 73.97,
+     "total": 1060.25,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 4.0,
+       "unit_price": 21.02,
+       "amount": 84.08
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 309.0,
+       "unit_price": 0.57,
+       "amount": 176.13
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 68.73,
+       "amount": 274.92
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 11.0,
+       "unit_price": 36.63,
+       "amount": 402.93
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 2.0,
+       "unit_price": 24.11,
+       "amount": 48.22
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044036",
+     "invoice_date": "2026-07-01",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 2337.05,
+     "tax": 0.0,
+     "total": 2337.05,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Occupational therapy session",
+       "quantity": 2.0,
+       "unit_price": 83.76,
+       "amount": 167.52
+      },
+      {
+       "description": "Physical therapy session",
+       "quantity": 7.0,
+       "unit_price": 88.54,
+       "amount": 619.78
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 5.0,
+       "unit_price": 282.71,
+       "amount": 1413.55
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 4.0,
+       "unit_price": 34.05,
+       "amount": 136.2
+      }
+     ]
+    },
+    {
+     "invoice_number": "20261044047",
+     "invoice_date": "2026-05-15",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 500315.69,
+     "tax": 75047.35,
+     "total": 575363.04,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 4.0,
+       "unit_price": 11067.5,
+       "amount": 44270.0
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 5.0,
+       "unit_price": 14129.33,
+       "amount": 70646.65
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 3.0,
+       "unit_price": 3264.27,
+       "amount": 9792.81
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 10.0,
+       "unit_price": 2155.5,
+       "amount": 21555.0
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 7.0,
+       "unit_price": 6406.24,
+       "amount": 44843.68
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 12.0,
+       "unit_price": 20280.9,
+       "amount": 243370.8
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 7.0,
+       "unit_price": 7228.01,
+       "amount": 50596.07
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 212.0,
+       "unit_price": 71.89,
+       "amount": 15240.68
+      }
+     ]
+    },
+    {
+     "invoice_number": "20261044051",
+     "invoice_date": "2026-02-22",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 262.72,
+     "tax": 26.27,
+     "total": 288.99,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 4.0,
+       "unit_price": 65.68,
+       "amount": 262.72
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044058",
+     "invoice_date": "2026-03-04",
+     "supplier_name": "Lifeline Mobility Rentals",
+     "customer_name": "Bayview Family Health",
+     "subtotal": 847.05,
+     "tax": 67.76,
+     "total": 914.81,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 5.0,
+       "unit_price": 169.41,
+       "amount": 847.05
+      }
+     ]
+    },
+    {
+     "invoice_number": "A-1044065",
+     "invoice_date": "2026-06-06",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 11063.73,
+     "tax": 1106.37,
+     "total": 12170.1,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 165.04,
+       "amount": 660.16
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 11.0,
+       "unit_price": 314.42,
+       "amount": 3458.62
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 10.0,
+       "unit_price": 61.59,
+       "amount": 615.9
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 3.0,
+       "unit_price": 29.19,
+       "amount": 87.57
+      },
+      {
+       "description": "Occupational therapy session",
+       "quantity": 4.0,
+       "unit_price": 86.2,
+       "amount": 344.8
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 11.0,
+       "unit_price": 47.76,
+       "amount": 525.36
+      },
+      {
+       "description": "Physical therapy session",
+       "quantity": 1.0,
+       "unit_price": 139.84,
+       "amount": 139.84
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 5.0,
+       "unit_price": 19.58,
+       "amount": 97.9
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 3.0,
+       "unit_price": 238.27,
+       "amount": 714.81
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 6.0,
+       "unit_price": 34.97,
+       "amount": 209.82
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 12.0,
+       "unit_price": 57.85,
+       "amount": 694.2
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 178.0,
+       "unit_price": 0.67,
+       "amount": 119.26
+      },
+      {
+       "description": "Incontinence supplies (case)",
+       "quantity": 7.0,
+       "unit_price": 43.52,
+       "amount": 304.64
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 2.0,
+       "unit_price": 58.11,
+       "amount": 116.22
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 9.0,
+       "unit_price": 31.08,
+       "amount": 279.72
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 12.0,
+       "unit_price": 61.33,
+       "amount": 735.96
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 5.0,
+       "unit_price": 204.59,
+       "amount": 1022.95
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 2.0,
+       "unit_price": 28.48,
+       "amount": 56.96
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 2.0,
+       "unit_price": 170.1,
+       "amount": 340.2
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 10.0,
+       "unit_price": 21.93,
+       "amount": 219.3
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 5.0,
+       "unit_price": 29.94,
+       "amount": 149.7
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 4.0,
+       "unit_price": 42.46,
+       "amount": 169.84
+      }
+     ]
+    },
+    {
+     "invoice_number": "CG-2026-1044073",
+     "invoice_date": "2026-04-27",
+     "supplier_name": "Lifeline Mobility Rentals",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 958.54,
+     "tax": 0.0,
+     "total": 958.54,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 9.0,
+       "unit_price": 80.7,
+       "amount": 726.3
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 8.0,
+       "unit_price": 29.03,
+       "amount": 232.24
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044083",
+     "invoice_date": "2026-06-08",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 1089.37,
+     "tax": 163.41,
+     "total": 1252.78,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 2.0,
+       "unit_price": 27.33,
+       "amount": 54.66
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 2.0,
+       "unit_price": 120.88,
+       "amount": 241.76
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 4.0,
+       "unit_price": 82.81,
+       "amount": 331.24
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 3.0,
+       "unit_price": 28.87,
+       "amount": 86.61
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 5.0,
+       "unit_price": 62.67,
+       "amount": 313.35
+      },
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 95.0,
+       "unit_price": 0.65,
+       "amount": 61.75
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044087",
+     "invoice_date": "2026-09-16",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 9875.48,
+     "tax": 740.66,
+     "total": 10616.14,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 4.0,
+       "unit_price": 2468.87,
+       "amount": 9875.48
+      }
+     ]
+    },
+    {
+     "invoice_number": "CG-2026-1044094",
+     "invoice_date": "2026-09-25",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 5426.28,
+     "tax": 813.94,
+     "total": 6240.22,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 12.0,
+       "unit_price": 91.51,
+       "amount": 1098.12
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 11.0,
+       "unit_price": 378.48,
+       "amount": 4163.28
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 4.0,
+       "unit_price": 41.22,
+       "amount": 164.88
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044101",
+     "invoice_date": "2026-03-20",
+     "supplier_name": "Greenleaf Nutrition Services",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 818.64,
+     "tax": 61.4,
+     "total": 880.04,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 9.0,
+       "unit_price": 87.61,
+       "amount": 788.49
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 1.0,
+       "unit_price": 30.15,
+       "amount": 30.15
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044105",
+     "invoice_date": "2026-04-12",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 2468.01,
+     "tax": 197.44,
+     "total": 2665.45,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 6.0,
+       "unit_price": 32.33,
+       "amount": 193.98
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 12.0,
+       "unit_price": 27.01,
+       "amount": 324.12
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 16.0,
+       "unit_price": 24.43,
+       "amount": 390.88
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 11.0,
+       "unit_price": 141.73,
+       "amount": 1559.03
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044114",
+     "invoice_date": "2026-03-11",
+     "supplier_name": "Lifeline Mobility Rentals",
+     "customer_name": "Care Guide Operations",
+     "subtotal": 445709.06,
+     "tax": 22285.45,
+     "total": 467994.51,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 16319.63,
+       "amount": 65278.52
+      },
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 6.0,
+       "unit_price": 1853.07,
+       "amount": 11118.42
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 5.0,
+       "unit_price": 4248.27,
+       "amount": 21241.35
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 1.0,
+       "unit_price": 17358.49,
+       "amount": 17358.49
+      },
+      {
+       "description": "Overnight respite care",
+       "quantity": 6.0,
+       "unit_price": 23233.24,
+       "amount": 139399.44
+      },
+      {
+       "description": "Nutritional supplement pack",
+       "quantity": 10.0,
+       "unit_price": 1991.62,
+       "amount": 19916.2
+      },
+      {
+       "description": "Occupational therapy session",
+       "quantity": 11.0,
+       "unit_price": 14158.94,
+       "amount": 155748.34
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 6.0,
+       "unit_price": 2608.05,
+       "amount": 15648.3
+      }
+     ]
+    },
+    {
+     "invoice_number": "20261044119",
+     "invoice_date": "2026-02-17",
+     "supplier_name": "Northstar Home Care Billing Co.",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 70947.53,
+     "tax": 5675.8,
+     "total": 76623.33,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Wound care supplies kit",
+       "quantity": 9.0,
+       "unit_price": 1828.22,
+       "amount": 16453.98
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 5.0,
+       "unit_price": 10898.71,
+       "amount": 54493.55
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044127",
+     "invoice_date": "2026-09-12",
+     "supplier_name": "Lifeline Mobility Rentals",
+     "customer_name": "Riverside Senior Living",
+     "subtotal": 498235.98,
+     "tax": 39858.88,
+     "total": 538094.86,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 9.0,
+       "unit_price": 15115.9,
+       "amount": 136043.1
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 11.0,
+       "unit_price": 9458.3,
+       "amount": 104041.3
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 6.0,
+       "unit_price": 14280.22,
+       "amount": 85681.32
+      },
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 9.0,
+       "unit_price": 10349.5,
+       "amount": 93145.5
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 3.0,
+       "unit_price": 2224.79,
+       "amount": 6674.37
+      },
+      {
+       "description": "Incontinence supplies (case)",
+       "quantity": 4.0,
+       "unit_price": 6088.61,
+       "amount": 24354.44
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 2.0,
+       "unit_price": 2674.6,
+       "amount": 5349.2
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 11.0,
+       "unit_price": 3904.25,
+       "amount": 42946.75
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044138",
+     "invoice_date": "2026-01-29",
+     "supplier_name": "BrightPath Nursing Agency",
+     "customer_name": "Maple Grove Assisted Living",
+     "subtotal": 1623.71,
+     "tax": 121.78,
+     "total": 1745.49,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Mileage reimbursement",
+       "quantity": 301.0,
+       "unit_price": 0.59,
+       "amount": 177.59
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 24.0,
+       "unit_price": 20.31,
+       "amount": 487.44
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 12.0,
+       "unit_price": 79.89,
+       "amount": 958.68
+      }
+     ]
+    },
+    {
+     "invoice_number": "A-1044146",
+     "invoice_date": "2026-05-11",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 556172.74,
+     "tax": 55617.27,
+     "total": 611790.01,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Occupational therapy session",
+       "quantity": 12.0,
+       "unit_price": 13821.34,
+       "amount": 165856.08
+      },
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 6.0,
+       "unit_price": 20337.15,
+       "amount": 122022.9
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 6.0,
+       "unit_price": 3929.8,
+       "amount": 23578.8
+      },
+      {
+       "description": "Caregiver training workshop",
+       "quantity": 4.0,
+       "unit_price": 34823.64,
+       "amount": 139294.56
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 40.0,
+       "unit_price": 2635.51,
+       "amount": 105420.4
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044151",
+     "invoice_date": "2026-01-10",
+     "supplier_name": "Harmony Therapy Partners",
+     "customer_name": "St. Anne Community Care",
+     "subtotal": 1711.73,
+     "tax": 256.76,
+     "total": 1968.49,
+     "currency": "EUR",
+     "line_items": [
+      {
+       "description": "Skilled nursing visit (RN)",
+       "quantity": 1.0,
+       "unit_price": 83.09,
+       "amount": 83.09
+      },
+      {
+       "description": "Wheelchair rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 75.56,
+       "amount": 302.24
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 40.0,
+       "unit_price": 33.16,
+       "amount": 1326.4
+      }
+     ]
+    },
+    {
+     "invoice_number": "HC/1044156",
+     "invoice_date": "2026-06-13",
+     "supplier_name": "Dhaka Care Logistics Ltd.",
+     "customer_name": "Willow Creek Hospice",
+     "subtotal": 130180.43,
+     "tax": 10414.43,
+     "total": 140594.86,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Personal care assistance",
+       "quantity": 4.0,
+       "unit_price": 2209.98,
+       "amount": 8839.92
+      },
+      {
+       "description": "Occupational therapy session",
+       "quantity": 9.0,
+       "unit_price": 11055.14,
+       "amount": 99496.26
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 5.0,
+       "unit_price": 4368.85,
+       "amount": 21844.25
+      }
+     ]
+    },
+    {
+     "invoice_number": "INV-2026-1044162",
+     "invoice_date": "2026-02-02",
+     "supplier_name": "Sunrise Home Health Supplies",
+     "customer_name": "Unity Home Health Network",
+     "subtotal": 207122.88,
+     "tax": 31068.43,
+     "total": 238191.31,
+     "currency": "BDT",
+     "line_items": [
+      {
+       "description": "Hospital bed rental (monthly)",
+       "quantity": 4.0,
+       "unit_price": 19251.96,
+       "amount": 77007.84
+      },
+      {
+       "description": "Personal care assistance",
+       "quantity": 10.0,
+       "unit_price": 3825.87,
+       "amount": 38258.7
+      },
+      {
+       "description": "Blood pressure monitor",
+       "quantity": 7.0,
+       "unit_price": 7068.42,
+       "amount": 49478.94
+      },
+      {
+       "description": "Incontinence supplies (case)",
+       "quantity": 6.0,
+       "unit_price": 7062.9,
+       "amount": 42377.4
+      }
+     ]
+    },
+    {
+     "invoice_number": "A-1044170",
+     "invoice_date": "2026-05-15",
+     "supplier_name": "Evergreen Medical Equipment Inc.",
+     "customer_name": "Golden Years Home Care Agency",
+     "subtotal": 557.27,
+     "tax": 83.59,
+     "total": 640.86,
+     "currency": "GBP",
+     "line_items": [
+      {
+       "description": "Physical therapy session",
+       "quantity": 3.0,
+       "unit_price": 83.57,
+       "amount": 250.71
+      },
+      {
+       "description": "Medication administration check",
+       "quantity": 1.0,
+       "unit_price": 26.72,
+       "amount": 26.72
+      },
+      {
+       "description": "Home health aide hours",
+       "quantity": 12.0,
+       "unit_price": 23.32,
+       "amount": 279.84
+      }
+     ]
+    }
+   ],
+   "planted_issues": [],
+   "pages": 26,
+   "file": "batch_multi_invoice.pdf"
+  },
+  {
+   "kind": "corrupt",
+   "format": "pdf",
+   "expected": "fail",
+   "expected_error": "corrupted_file",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_random.pdf"
+  },
+  {
+   "kind": "corrupt",
+   "format": "png",
+   "expected": "fail",
+   "expected_error": "empty_file",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_empty.png"
+  },
+  {
+   "kind": "corrupt",
+   "format": "pdf",
+   "expected": "fail",
+   "expected_error": "corrupted_file",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_header_only.pdf"
+  },
+  {
+   "kind": "corrupt",
+   "format": "jpg",
+   "expected": "fail",
+   "expected_error": "corrupted_file",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_truncated.jpg"
+  },
+  {
+   "kind": "corrupt",
+   "format": "xlsx",
+   "expected": "fail",
+   "expected_error": "corrupted_file",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_bad_zip.xlsx"
+  },
+  {
+   "kind": "corrupt",
+   "format": "png",
+   "expected": "fail",
+   "expected_error": "no_text_found",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "corrupt_blank_scan.png"
+  },
+  {
+   "kind": "corrupt",
+   "format": "pdf",
+   "expected": "any",
+   "invoices": [],
+   "planted_issues": [],
+   "file": "damaged_truncated.pdf"
+  }
+ ]
+}

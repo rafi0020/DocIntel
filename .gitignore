@@ -1,0 +1,28 @@
+# secrets / local config
+.env
+*.env.local
+# runtime data
+backend/storage/
+storage/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+# generated datasets (re-create with the scripts in backend/eval)
+dataset/*/files/
+# node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# editor, assistant and tooling state
+.claude/
+.archify/
+.continuum/
+.cursor/
+.playwright-mcp/
+.ruff_cache/
+
+# machine-specific
+docker-compose.override.yml
+eval_results/_local_*/

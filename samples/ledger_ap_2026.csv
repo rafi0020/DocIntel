@@ -1,0 +1,14 @@
+Invoice No,Invoice Date,Vendor,Customer,Net Amount,Tax,Total,Currency,Source File
+HC/694023,2026-02-14,Evergreen Medical Equipment Inc.,Unity Home Health Network,506.27,40.5,564.77,GBP,inv_003.jpg
+A-694057,2026-09-19,Mohakhali Pharma Distributors,Care Guide Operations,1632.69,81.63,1714.32,USD,inv_008.png
+2026694065,2026-08-02,Dhaka Care Logistics Ltd.,Care Guide Operations,367571.62,0.0,367671.62,BDT,inv_009.jpg
+2026694011,2026-01-22,Harmony Therapy Partners,Golden Years Home Care Agency,850.52,68.04,918.56,USD,inv_001.pdf
+A-694028,2026-07-01,Greenleaf Nutrition Services,Cottage Home Care Services,131381.45,6569.07,137950.52,BDT,inv_004.pdf
+A-694018,2026-03-25,Sunrise Home Health Supplies,Care Guide Operations,657.62,32.88,690.5,USD,inv_002.pdf
+A-694055,2026-04-30,Evergreen Medical Equipment Inc.,St. Anne Community Care,529220.43,79383.06,608603.49,BDT,inv_007.pdf
+A-694046,2026-06-14,Dhaka Care Logistics Ltd.,Riverside Senior Living,4987.83,374.09,5361.92,GBP,inv_006.pdf
+2026694006,2026-04-21,Harmony Therapy Partners,Care Guide Operations,1742.94,139.44,1882.38,USD,inv_000.pdf
+2026694072,2026-04-02,Northstar Home Care Billing Co.,St. Anne Community Care,1252.74,187.91,1440.65,USD,inv_010.jpg
+INV-2026-694077,2026-09-25,BrightPath Nursing Agency,St. Anne Community Care,509276.34,40742.11,550018.45,BDT,inv_011.jpg
+HC/694040,2026-06-09,Evergreen Medical Equipment Inc.,Maple Grove Assisted Living,5118.85,255.94,5374.79,EUR,inv_005.tiff
+INV-2026-9999,2026-05-05,Unknown Vendor Ltd,Riverside Senior Living,100.0,0.0,100.0,USD,(no document)
