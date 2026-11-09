@@ -1,0 +1,162 @@
+{
+ "dataset": "synthetic_dev",
+ "extractor": "rules",
+ "llm_provider": "rules",
+ "ocr_engine": "tesseract",
+ "files": 53,
+ "robustness": {
+  "expected_ok": 46,
+  "processed_ok": 46,
+  "document_success_rate_pct": 100.0,
+  "failure_rate_pct": 0.0,
+  "bad_files": 6,
+  "bad_files_rejected_gracefully": 6,
+  "bad_files_with_correct_error_code": 6,
+  "crashes": 0,
+  "outcomes": {
+   "ok_expected_ok": 46,
+   "graceful_failure": 6,
+   "ok_on_damaged_file": 1
+  }
+ },
+ "accuracy": {
+  "overall_field_accuracy_pct": 99.0,
+  "per_field_pct": {
+   "invoice_number": 96.8,
+   "invoice_date": 100.0,
+   "supplier_name": 100.0,
+   "customer_name": 100.0,
+   "subtotal": 98.4,
+   "tax": 100.0,
+   "total": 98.4,
+   "currency": 98.4
+  },
+  "hallucinated_values": {},
+  "missed_values": {
+   "currency": 1,
+   "invoice_number": 2,
+   "total": 1
+  },
+  "line_items": {
+   "precision_pct": 99.3,
+   "recall_pct": 99.3,
+   "f1_pct": 99.3,
+   "matched": 281,
+   "predicted": 283,
+   "expected": 283
+  },
+  "by_scan_quality_pct": {
+   "clean": 100.0,
+   "medium": 97.3,
+   "poor": 95.0,
+   "batch": 100.0
+  },
+  "provenance_rejections": 0,
+  "provenance_rejection_rate_pct": 0.0
+ },
+ "validation": {
+  "planted_issues": 16,
+  "detected": 16,
+  "recall_pct": 100.0,
+  "recall_by_code": {
+   "line_items_mismatch": "3/3",
+   "line_item_arithmetic": "3/3",
+   "missing_field": "8/8",
+   "total_mismatch": "2/2"
+  },
+  "clean_documents": 28,
+  "clean_documents_flagged_for_review": 6,
+  "false_alarm_rate_pct": 21.4
+ },
+ "splitting": [
+  {
+   "file": "batch_multi_invoice.pdf",
+   "expected": 20,
+   "found": 20,
+   "pages": 21
+  }
+ ],
+ "cross_verification": {
+  "summary": {
+   "left_records": 40,
+   "right_records": 41,
+   "matched": 34,
+   "fully_consistent": 29,
+   "with_mismatches": 5,
+   "only_in_left": 6,
+   "only_in_right": 7,
+   "left_total_sum": 4366982.88,
+   "right_total_sum": 3805825.2,
+   "total_sum_difference": -561157.68
+  },
+  "altered_rows": 4,
+  "altered_detected": 4,
+  "detection_recall": 100.0,
+  "flagged_field_mismatches": 5,
+  "false_flags": 1,
+  "false_flag_examples": [
+   [
+    "INV20268265",
+    "subtotal"
+   ]
+  ]
+ },
+ "speed": {
+  "total_wall_s": 20.2,
+  "per_file_ms": {
+   "p50": 617.9,
+   "p95": 918.5,
+   "max": 1121.4
+  },
+  "by_type_ms": {
+   "digital_pdf": {
+    "n": 18,
+    "p50": 6.0,
+    "p95": 22.9
+   },
+   "image": {
+    "n": 14,
+    "p50": 705.6,
+    "p95": 918.0
+   },
+   "scanned_pdf": {
+    "n": 11,
+    "p50": 863.2,
+    "p95": 1028.1
+   },
+   "spreadsheet": {
+    "n": 3,
+    "p50": 12.2,
+    "p95": 77.9
+   },
+   "batch_pdf": {
+    "n": 1,
+    "p50": 118.7,
+    "p95": 118.7
+   }
+  },
+  "per_page_ms": {
+   "digital_pdf": {
+    "p50": 6.0,
+    "p95": 22.9
+   },
+   "image": {
+    "p50": 705.6,
+    "p95": 918.0
+   },
+   "scanned_pdf": {
+    "p50": 863.2,
+    "p95": 1028.1
+   },
+   "spreadsheet": {
+    "p50": 12.2,
+    "p95": 26.8
+   },
+   "batch_pdf": {
+    "p50": 5.7,
+    "p95": 5.7
+   }
+  },
+  "throughput_docs_per_min": 139.6
+ }
+}

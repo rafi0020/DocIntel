@@ -1,0 +1,2379 @@
+{
+ "source": "validation.parquet",
+ "files": [
+  {
+   "file": "real_000.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "65321852",
+     "invoice_date": "2021-04-11",
+     "supplier_name": "Kaufman, Cooper and Young 33451 Johnson Lake New Ann, NE 54138",
+     "customer_name": "Wells-Carlson 148 Carroll Village Suite 393 South Allisonstad, TX 72090",
+     "subtotal": 194.76,
+     "tax": 19.48,
+     "total": 214.24,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "New KID CUDI \"WZRD\" Rap Hip Hop Soul Music Men's Black T-Shirt Size S to 3XL",
+       "quantity": 2.0,
+       "unit_price": 22.49,
+       "amount": 44.98
+      },
+      {
+       "description": "boys bogs waterproof boots youth size 3",
+       "quantity": 1.0,
+       "unit_price": 9.8,
+       "amount": 9.8
+      },
+      {
+       "description": "Joma Boys Youth Gol-102 Soccer Cleats Shoes Size 3.5 White Red Futbol NEW",
+       "quantity": 2.0,
+       "unit_price": 19.99,
+       "amount": 39.98
+      },
+      {
+       "description": "Nike Oncore High Jr 6.0 (Kids) Size 4Y Black, Red, White",
+       "quantity": 4.0,
+       "unit_price": 25.0,
+       "amount": 100.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_001.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "16220332",
+     "invoice_date": "2017-05-15",
+     "supplier_name": "Lawson and Sons 78147 Jackson Fords Gilesland, MI 45057",
+     "customer_name": "Mosley LLC 913 Lawrence Mountains New Andrew, KY 46723",
+     "subtotal": 62853.39,
+     "tax": 6285.34,
+     "total": 69138.73,
+     "currency": "USD",
+     "line_items": null
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_002.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "90446683",
+     "invoice_date": "2016-02-11",
+     "supplier_name": "Chang-Cooper 452 Miller Plains Apt. 418 Barrettside, UT 97139",
+     "customer_name": "Peterson-Long 92441 Kimberly Curve East Mathew, OH 84858",
+     "subtotal": 196.97,
+     "tax": 19.7,
+     "total": 216.67,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Cabi 5610 Striped White Blue Launch Maxi Dress Womens Sz",
+       "quantity": 3.0,
+       "unit_price": 48.99,
+       "amount": 146.97
+      },
+      {
+       "description": "Socialite White Black Striped A Line Dress With Pockets Large",
+       "quantity": 5.0,
+       "unit_price": 10.0,
+       "amount": 50.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_003.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "53339803",
+     "invoice_date": "2018-09-11",
+     "supplier_name": "Evans LLC 507 Young Parks Suite 231 Robinsonside, WV 82205",
+     "customer_name": "Ball, Smith and Rhodes 472 Marcus Courts Kristinatown, AK 01280",
+     "subtotal": 15300.0,
+     "tax": 1530.0,
+     "total": 16830.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Yilong 5.5'x8' Handwoven Silk Area Rugs Red Living Room Classic Carpets 1696",
+       "quantity": 1.0,
+       "unit_price": 3300.0,
+       "amount": 3300.0
+      },
+      {
+       "description": "YILONG 4'x6' Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B",
+       "quantity": 1.0,
+       "unit_price": 3600.0,
+       "amount": 3600.0
+      },
+      {
+       "description": "Yilong 5'x7' Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047",
+       "quantity": 1.0,
+       "unit_price": 8400.0,
+       "amount": 8400.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_004.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "76588527",
+     "invoice_date": "2018-11-21",
+     "supplier_name": "Oliver and Sons 49905 Anthony Loaf North Kristi, WA 43365",
+     "customer_name": "Kirby-Charles 4159 Brown Valley Apt. 572 Brownstad, MN 48794",
+     "subtotal": 679.96,
+     "tax": 68.0,
+     "total": 747.96,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo 64 Console with Box, Foam and extra oem controller",
+       "quantity": 1.0,
+       "unit_price": 120.0,
+       "amount": 120.0
+      },
+      {
+       "description": "Sony PlayStation 3 150GB Charcoal Black Console (Used)",
+       "quantity": 4.0,
+       "unit_price": 139.99,
+       "amount": 559.96
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_005.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "97511742",
+     "invoice_date": "2016-04-07",
+     "supplier_name": "Decker PLC PSC 4781, Box 6245 APO AE 78725",
+     "customer_name": "Boyle Ltd 42517 Laurie Passage Suite 826 North Charleshaven, NC 09365",
+     "subtotal": 4314.93,
+     "tax": 431.49,
+     "total": 4746.42,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo Wii New Super Mario Bros Console System Bundle Gamecube Compatible",
+       "quantity": 1.0,
+       "unit_price": 89.99,
+       "amount": 89.99
+      },
+      {
+       "description": "Sony PlayStation 5 Console - White Disc Version CONFIRMED PRE ORDER PS5",
+       "quantity": 1.0,
+       "unit_price": 499.99,
+       "amount": 499.99
+      },
+      {
+       "description": "Microsoft Xbox One S 1TB Console White",
+       "quantity": 5.0,
+       "unit_price": 189.0,
+       "amount": 945.0
+      },
+      {
+       "description": "Nintendo Wii Teal Blue Limited Edition Console with Mario Kart - MINT TESTED",
+       "quantity": 2.0,
+       "unit_price": 114.99,
+       "amount": 229.98
+      },
+      {
+       "description": "Sony PlayStation 5 Console PS5- PRESALE- Disc Version Pre Order Confirmed",
+       "quantity": 3.0,
+       "unit_price": 849.99,
+       "amount": 2549.97
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_006.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "79128264",
+     "invoice_date": "2014-12-31",
+     "supplier_name": "Rivera-Thompson 0115 Brown Drives Ryanside, NM 95662",
+     "customer_name": "Pearson, Gibbs and Ayala 795 Brittany Points Suite 504 Riceland, AZ 55140",
+     "subtotal": 348.16,
+     "tax": 34.82,
+     "total": 382.98,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Ol Red Wine Glasses Ball Mason Jar Fancy Rednecks Set of 2 New in Box",
+       "quantity": 5.0,
+       "unit_price": 35.0,
+       "amount": 175.0
+      },
+      {
+       "description": "Single Bottle Wine Holder Mini Bar Painted & Signed by Artist Alejandro Lopez",
+       "quantity": 1.0,
+       "unit_price": 39.99,
+       "amount": 39.99
+      },
+      {
+       "description": "a pair of wine glasses drawer 1 e",
+       "quantity": 4.0,
+       "unit_price": 7.3,
+       "amount": null
+      },
+      {
+       "description": "Lolita \"Wine Bouquet\" Hand Painted and Decorated Wine Glass NIB",
+       "quantity": 1.0,
+       "unit_price": 20.0,
+       "amount": 20.0
+      },
+      {
+       "description": "Lifefactory 17 OZ Wine Glass 4 Pack with Silicone Sleeves, Grass Green",
+       "quantity": 3.0,
+       "unit_price": 27.99,
+       "amount": 83.97
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_007.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "67583819",
+     "invoice_date": "2012-06-01",
+     "supplier_name": "Gibson Ltd 92975 Scott Mount Lake Laurentown, ND 29361",
+     "customer_name": "Gomez-Martinez 225 King Roads West Scott, NV 81463",
+     "subtotal": 889.67,
+     "tax": 88.97,
+     "total": 978.64,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Escada Long Black Dress SZ 40 100% Silk Lining",
+       "quantity": 3.0,
+       "unit_price": 74.99,
+       "amount": 224.97
+      },
+      {
+       "description": "Lilly Pulitzer Lillywood California 8 Shift Dress",
+       "quantity": 1.0,
+       "unit_price": 76.0,
+       "amount": 76.0
+      },
+      {
+       "description": "Guess White Halter Dress Size 10",
+       "quantity": 5.0,
+       "unit_price": 13.0,
+       "amount": 65.0
+      },
+      {
+       "description": "Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress",
+       "quantity": 1.0,
+       "unit_price": 12.0,
+       "amount": 12.0
+      },
+      {
+       "description": "sandro dress",
+       "quantity": 5.0,
+       "unit_price": 80.0,
+       "amount": 400.0
+      },
+      {
+       "description": "Women Sexy Lingerie Lace Dress Underwear Babydoll Sleepwear G-string Bikini Lot",
+       "quantity": 2.0,
+       "unit_price": 0.99,
+       "amount": 1.98
+      },
+      {
+       "description": "Women's Almatrichi Madrid Dress Chevron Boho Ethnic Exotic Tribal Size 42 L",
+       "quantity": 2.0,
+       "unit_price": 54.86,
+       "amount": 109.72
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_008.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "18001573",
+     "invoice_date": "2012-12-30",
+     "supplier_name": "Mcgrath-Ruiz 96052 Arnold Mountain East Sara, SD 80652",
+     "customer_name": "Chavez, Burke and Jones 469 Mcdonald Mountains Apt. 860 Lake Jason, MI 93514",
+     "subtotal": 100.97,
+     "tax": 10.1,
+     "total": 111.07,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "mDesign Metal Wine Rack Storage Organizer, 6 Bottles Chrome",
+       "quantity": 3.0,
+       "unit_price": 22.99,
+       "amount": 68.97
+      },
+      {
+       "description": "New Never Used CROFTON CHEFS COLLECTION WINE COOLING STICK IN PACKAGE",
+       "quantity": 4.0,
+       "unit_price": 3.0,
+       "amount": 12.0
+      },
+      {
+       "description": "Refinery Wine Opener",
+       "quantity": 2.0,
+       "unit_price": 10.0,
+       "amount": 20.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_009.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "56513760",
+     "invoice_date": "2011-10-25",
+     "supplier_name": "Lyons-Murphy 178 Mann Shoals Apt. 732 West Johnview, WI 44188",
+     "customer_name": "Lawrence LLC 2959 Marquez Junction Suite 826 Michaelchester, CA 10095",
+     "subtotal": 6464.0,
+     "tax": 646.4,
+     "total": 7110.4,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nexlink DG41RQ Desktop Computer Windows 10 w/DVD/CD Rom Drive",
+       "quantity": 2.0,
+       "unit_price": 11.95,
+       "amount": 23.9
+      },
+      {
+       "description": "Gaming PC Desktop Computer HDMI RGB Intel i7 RTX 2060, HDD+SSD, Windows 10, Wifi",
+       "quantity": 5.0,
+       "unit_price": 999.5,
+       "amount": 4997.5
+      },
+      {
+       "description": "Lenovo i5 I 32GB 12TB ISSD Windows 10 Pro Desktop Computer PC WiFi Bluetooth",
+       "quantity": 1.0,
+       "unit_price": 139.0,
+       "amount": 139.0
+      },
+      {
+       "description": "Gaming PC Desktop Computer RGB Intel i7, RTX 2060, 16GB RAM, 240GB SSD, 2TB HDD",
+       "quantity": 1.0,
+       "unit_price": 903.8,
+       "amount": 903.8
+      },
+      {
+       "description": "HP 8200 USFF Desktop Computer PC Core i5 4GB 500GB Windows 10 Pro DisplayPort",
+       "quantity": 4.0,
+       "unit_price": 99.95,
+       "amount": 399.8
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_010.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "38870308",
+     "invoice_date": "2019-08-01",
+     "supplier_name": "Dunn-Campbel. 36709 Santiago Viaduct Dianaland, MN 12512",
+     "customer_name": "Ramirez, Donaldson and Lane 567 Ortiz Valley Suite 979 Kellyfort, GA 69454",
+     "subtotal": 298.94,
+     "tax": 29.89,
+     "total": 328.83,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Ol Red Wine Glasses Ball Mason Jar Fancy Rednecks Set of 2 New in Box",
+       "quantity": 4.0,
+       "unit_price": 35.0,
+       "amount": 140.0
+      },
+      {
+       "description": "2 Cakebread Cellars Napa Valley Wine Glasses",
+       "quantity": 1.0,
+       "unit_price": 29.95,
+       "amount": 29.95
+      },
+      {
+       "description": "Vintage Wine Basket Holder - 3 Bottles",
+       "quantity": 1.0,
+       "unit_price": 32.99,
+       "amount": 32.99
+      },
+      {
+       "description": "Vintage Set of 3 Cobalt Blue Glass Wine Glasses / Water Goblets Barware Stemware",
+       "quantity": 4.0,
+       "unit_price": 24.0,
+       "amount": 96.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_011.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "37999492",
+     "invoice_date": "2017-10-22",
+     "supplier_name": "Smith Ltd 783 Harmon Mews New Andrew, MN 96499",
+     "customer_name": "Jones, Miller and Yoder 97586 Alvarado Common Apt. 920 West Tracichester, MD 67308",
+     "subtotal": 4499.25,
+     "tax": 449.93,
+     "total": 4949.18,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "HP Computer 8300 Elite USDT PC i3-3220 3.3GHz 4GB Wins 7Home COA",
+       "quantity": 4.0,
+       "unit_price": 55.0,
+       "amount": 220.0
+      },
+      {
+       "description": "Dell Optiplex Desktop Computer PC Quad Core i5 16GB 1TB HD Wifi Windows 10 Pro",
+       "quantity": 3.0,
+       "unit_price": 169.95,
+       "amount": 509.85
+      },
+      {
+       "description": "HP All-in-One Computer 22\" Full-HD Display Intel 2.90GHz 4GB 1TB HD Win10 - TEAL",
+       "quantity": 5.0,
+       "unit_price": 449.99,
+       "amount": 2249.95
+      },
+      {
+       "description": "HP ProDesk G1 Desktop Computer Core i3 3.4GHz 8GB 500GB HD 19\" LCD Windows 10",
+       "quantity": 4.0,
+       "unit_price": 119.95,
+       "amount": null
+      },
+      {
+       "description": "Dell Desktop Computer PC Core 158GB 500GB HD DVD Wifi 19\" LCD Windows 10 Pro",
+       "quantity": 2.0,
+       "unit_price": 144.95,
+       "amount": 289.9
+      },
+      {
+       "description": "Dell Desktop Computer Tower Quad Intel Core i5 8GB 1TB HD DVD Wifi Windows 10 PC",
+       "quantity": 5.0,
+       "unit_price": 149.95,
+       "amount": 749.75
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_012.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "75367021",
+     "invoice_date": "2018-11-12",
+     "supplier_name": "Martinez-Ramirez 358 Tiffany Prairie Jerryland, AZ 91504",
+     "customer_name": "Lawrence, Stevens and Robinson Unit 4195 Box 3361 DPO AP 86918",
+     "subtotal": 33319.74,
+     "tax": 3331.97,
+     "total": 36651.71,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "6'x3' Marble Restaurant Dining Table Top Marquetry Inlay Occasional Decor H5017B",
+       "quantity": 3.0,
+       "unit_price": 5138.07,
+       "amount": 15414.21
+      },
+      {
+       "description": "Carnelian Stone Floral Pattern Dinette Table Top Marble Coffee Table 30 Inches",
+       "quantity": 5.0,
+       "unit_price": 993.75,
+       "amount": 4968.75
+      },
+      {
+       "description": "15\"x15\" White Marble Chess Top Table Carnelian Inlay Art Black Friday Gift Deco",
+       "quantity": 1.0,
+       "unit_price": 600.0,
+       "amount": 600.0
+      },
+      {
+       "description": "36 Inches Marble Dinning Table Top Inlay Kitchen Table with Blue Elephant Design",
+       "quantity": 5.0,
+       "unit_price": 1515.0,
+       "amount": 7575.0
+      },
+      {
+       "description": "25 Inches Black Marble Center Table Top with Multi Stones Coffee Table for Home",
+       "quantity": 4.0,
+       "unit_price": 731.25,
+       "amount": 2925.0
+      },
+      {
+       "description": "12\"White Marble Center Coffee Table Top Lapis Random Inlay Cafeteria Decor W294",
+       "quantity": 1.0,
+       "unit_price": 248.78,
+       "amount": 248.78
+      },
+      {
+       "description": "27\"x27\" Black Marble Top Coffee Table Floral Inlay Art Black Friday Gift D\u00e9cor",
+       "quantity": 1.0,
+       "unit_price": 1588.0,
+       "amount": 1588.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_013.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "76903393",
+     "invoice_date": "2012-07-24",
+     "supplier_name": "Young, Owens and Hall PSC 2231, Box 3989 APO AP 45024",
+     "customer_name": "King-Wells 014 Julia Locks Johnbury, KY 64775",
+     "subtotal": 4754.91,
+     "tax": 475.49,
+     "total": 5230.4,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Sony PlayStation 5 Digital Edition 825GB Video Game Console White",
+       "quantity": 1.0,
+       "unit_price": 550.0,
+       "amount": 550.0
+      },
+      {
+       "description": "Nintendo Switch Lite Yellow CONSOLE ONLY No Accessories or Charger [B1-1]",
+       "quantity": 5.0,
+       "unit_price": 135.0,
+       "amount": 675.0
+      },
+      {
+       "description": "SONY Playstation2 Console SCPH-39000 \" Aqua Color\"I TESTED 11180",
+       "quantity": 1.0,
+       "unit_price": 60.0,
+       "amount": 60.0
+      },
+      {
+       "description": "Nintendo 64 N64 Console Black Japan Tested Working NUSHA",
+       "quantity": 3.0,
+       "unit_price": 49.99,
+       "amount": 149.97
+      },
+      {
+       "description": "Sony PlayStation 5 Console - White Disc Version CONFIRMED PRE ORDER PS5",
+       "quantity": 5.0,
+       "unit_price": 499.99,
+       "amount": 2499.95
+      },
+      {
+       "description": "Sega V Saturn Victor Console RG-JX1 Gray Tested Working",
+       "quantity": 1.0,
+       "unit_price": 119.99,
+       "amount": 119.99
+      },
+      {
+       "description": "Nintendo Gameboy Original Console Gray with Box Manual DMB-01 Japan Tested 67",
+       "quantity": 5.0,
+       "unit_price": 140.0,
+       "amount": 700.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_014.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "18531177",
+     "invoice_date": "2015-04-30",
+     "supplier_name": "Adkins, Campbell and Butler PSC 8125, Box 9401 APO AA 65326",
+     "customer_name": "Bird, Bates and Johnston 970 Rowe Street Kristieton, CO 20645",
+     "subtotal": 222.91,
+     "tax": 22.29,
+     "total": 245.2,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Toddler Car Rain boots 5",
+       "quantity": 3.0,
+       "unit_price": 9.0,
+       "amount": 27.0
+      },
+      {
+       "description": "Skechers Kids' Snap Sprints Sneaker Size 4 Blue/Black 975461",
+       "quantity": 4.0,
+       "unit_price": 29.99,
+       "amount": 119.96
+      },
+      {
+       "description": "Skechers Blue Athletic Shoes Kids Size 2 EUC",
+       "quantity": 3.0,
+       "unit_price": 11.99,
+       "amount": 35.97
+      },
+      {
+       "description": "Joma Youth Boy Supercopa 201 Soccer Cleats 4.5 Negro Verde Multitaco Black Green",
+       "quantity": 2.0,
+       "unit_price": 19.99,
+       "amount": 39.98
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_015.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "65095335",
+     "invoice_date": "2017-02-15",
+     "supplier_name": "Payne-Davis 2065 Joshua Via Lake Chadmouth, TX 15224",
+     "customer_name": "Flores LLC 45998 Lance Shores Martinchester, NH 74633",
+     "subtotal": 42645.83,
+     "tax": 4264.58,
+     "total": 46910.41,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "15\"x15\" White Marble Chess Top Table Carnelian Inlay Art Black Friday Gift Deco",
+       "quantity": 1.0,
+       "unit_price": 600.0,
+       "amount": 600.0
+      },
+      {
+       "description": "Antique Vintage style hand carved table *Unique*",
+       "quantity": 2.0,
+       "unit_price": 13000.0,
+       "amount": 26000.0
+      },
+      {
+       "description": "15\"x15\" White Decorative Coffee Table Top Lapis Lazuli Marquetery Patio D\u00e9cor",
+       "quantity": 5.0,
+       "unit_price": 645.77,
+       "amount": 3228.85
+      },
+      {
+       "description": "6'x3' White Marble Dining Table Top Multi Inlay Floral Elephant Art Decor H4952",
+       "quantity": 2.0,
+       "unit_price": 6408.49,
+       "amount": 12816.98
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_016.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "76658127",
+     "invoice_date": "2011-10-23",
+     "supplier_name": "Crawford-Byrd PSC 3342, Box 5976 APO AA 60940",
+     "customer_name": "Sherman PLC 8359 Chapman Loop Torresside, MS 13114",
+     "subtotal": 570.91,
+     "tax": 57.09,
+     "total": 628.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Women Black Dress Mori Girl Puff Sleeve Korean Casual Loose Peter Pan Collar",
+       "quantity": 4.0,
+       "unit_price": 13.99,
+       "amount": 55.96
+      },
+      {
+       "description": "BCBG Maxazria dress XS",
+       "quantity": 4.0,
+       "unit_price": 20.0,
+       "amount": 80.0
+      },
+      {
+       "description": "NWT J.Crew Silk Wedding Dress",
+       "quantity": 1.0,
+       "unit_price": 395.0,
+       "amount": 395.0
+      },
+      {
+       "description": "Divided Black Asymmetrical Dress -size 8 NWT",
+       "quantity": 5.0,
+       "unit_price": 7.99,
+       "amount": 39.95
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_017.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "64281058",
+     "invoice_date": "2019-11-08",
+     "supplier_name": "Zuniga, Short and Jensen 3742 Stephanie Haven Apt. 492 Port Davidfurt, NY 66413",
+     "customer_name": "Wells Ltd 0691 Adam Brook South Brittany, WA 02993",
+     "subtotal": 14014.99,
+     "tax": 1401.5,
+     "total": 15416.49,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Gaming PC Desktop Computer HDMI RGB Intel i7 RTX 2060, HDD+SSD, Windows 10, Wifi",
+       "quantity": 5.0,
+       "unit_price": 999.5,
+       "amount": 4997.5
+      },
+      {
+       "description": "Ryzen Gaming Computer",
+       "quantity": 4.0,
+       "unit_price": 752.0,
+       "amount": 3008.0
+      },
+      {
+       "description": "Custom Built Windows 98 Retro Gaming Industrial PC Computer P2 B Montego II 5GB",
+       "quantity": 1.0,
+       "unit_price": 409.99,
+       "amount": 409.99
+      },
+      {
+       "description": "Dell Optiplex Desktop Computer 790 Core i7 8GB RAM 1TB HD DVD Windows 10 PC Wifi",
+       "quantity": 5.0,
+       "unit_price": 159.95,
+       "amount": 799.75
+      },
+      {
+       "description": "HP Windows 10 Pro Desktop Computer Intel QUAD CORE i5 Wifi, Keyboard & Mouse",
+       "quantity": 2.0,
+       "unit_price": 169.95,
+       "amount": 339.9
+      },
+      {
+       "description": "Dell Optiplex Desktop Computer PC Quad Core i5 16GB 1TB HD Wifi Windows 10 Pro",
+       "quantity": 3.0,
+       "unit_price": 169.95,
+       "amount": 509.85
+      },
+      {
+       "description": "Fast i7 RGB Gaming Desktop PC Computer VR-Ready WiFi AAA Fortnite GTAV PUBG IG3",
+       "quantity": 5.0,
+       "unit_price": 790.0,
+       "amount": 3950.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_018.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "64125453",
+     "invoice_date": "2013-03-25",
+     "supplier_name": "Soto and Sons 733 Walker Wells South Grace, AL 58131",
+     "customer_name": "Campos PLC 021 Ramirez Springs Apt. 983 Bradleyville, IN 84303",
+     "subtotal": 269.92,
+     "tax": 26.99,
+     "total": 296.91,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "New Fully Automatic Red Wine Bottle Opener Electric Red Wine Opener Corkscrew",
+       "quantity": 3.0,
+       "unit_price": 25.99,
+       "amount": 77.97
+      },
+      {
+       "description": "NEW Wall Mounted Metal Relax Glass and Bottle Holder Wine Cork Storage 4 Rack",
+       "quantity": 5.0,
+       "unit_price": 35.99,
+       "amount": 179.95
+      },
+      {
+       "description": "Wine Glasses Goblets Pair Clear Glass",
+       "quantity": 1.0,
+       "unit_price": 12.0,
+       "amount": 12.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_019.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "84635791",
+     "invoice_date": "2020-04-17",
+     "supplier_name": "Jimenez, Cummings and Ross 5907 Amanda Hills Apt. 227 Rachelburgh, ME 69330",
+     "customer_name": "Jones Ltd 915 Brian Prairie Suite 967 Norrischester, WY 77144",
+     "subtotal": 319.96,
+     "tax": 32.0,
+     "total": 351.96,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Sony PlayStation 2 Console Black (SCPH-39001) w/ 2 Controllers and 5 Games",
+       "quantity": 4.0,
+       "unit_price": 79.99,
+       "amount": 319.96
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_020.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "94404257",
+     "invoice_date": "2013-07-03",
+     "supplier_name": "Cruz PLC USNV Harris FPO AA 34966",
+     "customer_name": "Sandoval-Phillips 23699 James Villages Suite 818 West Tamara, MS 58825",
+     "subtotal": 126.27,
+     "tax": 12.63,
+     "total": 138.9,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "B0028NA06C Shoeless Joe",
+       "quantity": 5.0,
+       "unit_price": 3.49,
+       "amount": 17.45
+      },
+      {
+       "description": "The Fifty Greatest Conspiracies of All Time History s Biggest Myster",
+       "quantity": 3.0,
+       "unit_price": 4.49,
+       "amount": 13.47
+      },
+      {
+       "description": "Story of a Soul: The Autobiography of St. Therese of Lisieux",
+       "quantity": 5.0,
+       "unit_price": 9.35,
+       "amount": 46.75
+      },
+      {
+       "description": "The Complete Idiots Guide to Trouble-Free Home Re",
+       "quantity": 4.0,
+       "unit_price": 4.49,
+       "amount": 17.96
+      },
+      {
+       "description": "Rebecca to the Rescue (American Girl (Quality))",
+       "quantity": 2.0,
+       "unit_price": 4.89,
+       "amount": 9.78
+      },
+      {
+       "description": "Tales from the Buffalo Bills",
+       "quantity": 1.0,
+       "unit_price": 5.5,
+       "amount": 5.5
+      },
+      {
+       "description": "Vietnam, The Decisive Battles",
+       "quantity": 2.0,
+       "unit_price": 7.68,
+       "amount": 15.36
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_021.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "49106170",
+     "invoice_date": "2013-04-30",
+     "supplier_name": "Jackson-johnson 9104 Alexis Mount Lawrencebury, AL 77392",
+     "customer_name": "Huerta, Graham and Campbell 00065 Perry Path Suite 069 Lake Virginiaside, VA 24504",
+     "subtotal": 8096.15,
+     "tax": 809.62,
+     "total": 8905.77,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "HP Z420 Workstation Desktop Computer PC Intel Xeon 2.8GHZ 8GB 1TB Win10 Pro",
+       "quantity": 5.0,
+       "unit_price": 199.95,
+       "amount": 999.75
+      },
+      {
+       "description": "CLEARANCE! Fast Dell Desktop Computer PC DUAL CORE WINDOWS 10 4/8/16GB RAM",
+       "quantity": 3.0,
+       "unit_price": 209.0,
+       "amount": 627.0
+      },
+      {
+       "description": "W5 Pro Mini Pocket PC Windows 10 Computer Stick Intel Z8350 Quad Core",
+       "quantity": 3.0,
+       "unit_price": 119.0,
+       "amount": 357.0
+      },
+      {
+       "description": "gaming pc desktop computer intel i5",
+       "quantity": 4.0,
+       "unit_price": 850.0,
+       "amount": 3400.0
+      },
+      {
+       "description": "Dell Desktop Computer PC Core i5 3.1GHz 8GB RAM 500GB HD Wifi DVD Windows 10",
+       "quantity": 1.0,
+       "unit_price": 124.95,
+       "amount": 124.95
+      },
+      {
+       "description": "computer",
+       "quantity": 5.0,
+       "unit_price": 299.99,
+       "amount": 1499.95
+      },
+      {
+       "description": "Custom Built Gaming Computer",
+       "quantity": 5.0,
+       "unit_price": 217.5,
+       "amount": 1087.5
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_022.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "32131502",
+     "invoice_date": "2019-02-26",
+     "supplier_name": "Campbell, Mathis and Johnson 5501 Blankenship Brook Suite 458 Dennismouth, AL 87925",
+     "customer_name": "Jimenez, Smith and Lee 5429 Stevenson Ways Suite 661 Port Rogerland, AZ 76661",
+     "subtotal": 6036.43,
+     "tax": 603.64,
+     "total": 6640.07,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "FAST Dell Optiplex Windows 10 Desktop Computer Tower C2D 4GB DVD WiFi 17\" LCD",
+       "quantity": 1.0,
+       "unit_price": 124.95,
+       "amount": 124.95
+      },
+      {
+       "description": "Gaming PC Computer RX 580 8GB Ryzen 5 2x8GB Ram",
+       "quantity": 2.0,
+       "unit_price": 400.0,
+       "amount": 800.0
+      },
+      {
+       "description": "AMD Quad Core Custom Built Gaming PC Computer Desktop 16GB 2TB Blue LED",
+       "quantity": 4.0,
+       "unit_price": 509.99,
+       "amount": 2039.96
+      },
+      {
+       "description": "Gaming PC Desktop Computer i5 8GB 120GB SSD+1TB Win10 WIFI +H Keyboard",
+       "quantity": 4.0,
+       "unit_price": 168.88,
+       "amount": 675.52
+      },
+      {
+       "description": "HP ProDesk 600 G5 Mini Desktop Computer i5-9500T 8GB 256GB SSD W10 (new)",
+       "quantity": 4.0,
+       "unit_price": 599.0,
+       "amount": 2396.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_023.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "34528548",
+     "invoice_date": "2015-11-02",
+     "supplier_name": "Garcia, Stewart and Payne USCGC Frank FPO AE 30049",
+     "customer_name": "Huerta Ltd 74501 Andrea Streets Suite 854 Kaitlyntown, AL 90639",
+     "subtotal": 729.75,
+     "tax": 72.98,
+     "total": 802.73,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Dell Desktop Computers 0 Core i5 16GB 2TB HD 512GB SSD 0 Windows 10 PC 22\"LCD",
+       "quantity": 2.0,
+       "unit_price": 139.95,
+       "amount": 279.9
+      },
+      {
+       "description": "Dell Optiplex Desktop Computer with Dual 19\" LCD Monitors Windows 10 Pro",
+       "quantity": 3.0,
+       "unit_price": 149.95,
+       "amount": 449.85
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_024.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "12007995",
+     "invoice_date": "2012-04-08",
+     "supplier_name": "Jones and Sons 416 Taylor Lights Apt. 799 Lake Brendaville, NV 53065",
+     "customer_name": "Jenkins, Cobb and Woods 04886 Hansen Meadows Suite 324 South Alisonstad, CO 58240",
+     "subtotal": 20.0,
+     "tax": 2.0,
+     "total": 22.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Vintage 80s All That Jazz Blue Velvet Dress Small/Medium",
+       "quantity": 2.0,
+       "unit_price": 10.0,
+       "amount": 20.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_025.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "34977445",
+     "invoice_date": "2011-12-04",
+     "supplier_name": "Pace-Baker 15565 David Path Codyburgh, MT 48638",
+     "customer_name": "Stanley, Cooper and Koch 0599 Laura Turnpike Apt. 679 Tabithaberg, FL 48252",
+     "subtotal": 13722.57,
+     "tax": 1372.26,
+     "total": 15094.83,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Bohemian Rag Rug- Woven Chindi Dari Living Room Rug/ Hand-Woven Carpet Rug-Mats",
+       "quantity": 3.0,
+       "unit_price": 23.39,
+       "amount": 70.17
+      },
+      {
+       "description": "World Map Round Carpets Room Printed Area Rug Blue Floor Mat Bedroom Play Mat",
+       "quantity": 4.0,
+       "unit_price": 83.78,
+       "amount": 335.12
+      },
+      {
+       "description": "YILONG 4'x6' Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B",
+       "quantity": 3.0,
+       "unit_price": 3600.0,
+       "amount": 10800.0
+      },
+      {
+       "description": "Black+White Rectangle Shape Area Rug Carpet Floor Pad Doormat Mats Non-slip Z4F9",
+       "quantity": 4.0,
+       "unit_price": 21.1,
+       "amount": 84.4
+      },
+      {
+       "description": "Floor Mat Kitchen Bedroom Bathroom Non Slip Doormat Carpet Area Rug 180x60cm",
+       "quantity": 5.0,
+       "unit_price": 31.58,
+       "amount": 157.9
+      },
+      {
+       "description": "Rug Beni Ourain, Moroccan Handmade 100% Wool Area Rug Berber Beni Ouarain Carpet",
+       "quantity": 5.0,
+       "unit_price": 450.0,
+       "amount": 2250.0
+      },
+      {
+       "description": "Colorful Marble Printed Living Room and Bedroom Area Rugs Carpet CNK2413",
+       "quantity": 2.0,
+       "unit_price": 12.49,
+       "amount": 24.98
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_026.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "29086575",
+     "invoice_date": "2020-07-08",
+     "supplier_name": "Booth, Weber and Wall 91921 Avila Mission New Danieltown, OK 99850",
+     "customer_name": "Randolph and Sons PSC 9264, Box 3187 APO AP 94569",
+     "subtotal": 15567.65,
+     "tax": 1556.77,
+     "total": 17124.42,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "16\" Marble Coffee Table Top Mother of Peral Peacock Inlay Restaurant Decors W366",
+       "quantity": 4.0,
+       "unit_price": 318.71,
+       "amount": 1274.84
+      },
+      {
+       "description": "48 Inch Marble Restaurant Table Inlay with Lapis Lazuli Stone Dinning Table Top",
+       "quantity": 3.0,
+       "unit_price": 2692.0,
+       "amount": 8076.0
+      },
+      {
+       "description": "Nugget Play Couch Dew Drop",
+       "quantity": 5.0,
+       "unit_price": 550.0,
+       "amount": 2750.0
+      },
+      {
+       "description": "18\" White Marble Coffee Table Top Carnelian Floral Inlay Art Furniture Gift W541",
+       "quantity": 4.0,
+       "unit_price": 394.64,
+       "amount": 1578.56
+      },
+      {
+       "description": "18\" Black Marble Coffee Table Top Mother of Pearl Inlay Furniture Decors H1883B",
+       "quantity": 5.0,
+       "unit_price": 377.65,
+       "amount": 1888.25
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_027.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "52093915",
+     "invoice_date": "2017-08-29",
+     "supplier_name": "Cooper Group 079 Cisneros Squares Alvarezland, RI 49684",
+     "customer_name": "West LLC 7197 Tammy Forks Suite 476 Leonardburgh, OK 34364",
+     "subtotal": 1565.81,
+     "tax": 156.58,
+     "total": 1722.39,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo WII Black Console Bundle 2 Remotes+ sensor+ 1 Numchuk Tested & Works",
+       "quantity": 3.0,
+       "unit_price": 52.95,
+       "amount": 158.85
+      },
+      {
+       "description": "B400 Nintendo 3DS console Gloss Pink Japan X",
+       "quantity": 4.0,
+       "unit_price": 14.99,
+       "amount": 59.96
+      },
+      {
+       "description": "Nintendo Switch 32GB Neon Red/Neon Blue Console",
+       "quantity": 4.0,
+       "unit_price": 300.0,
+       "amount": 1200.0
+      },
+      {
+       "description": "Nintendo N64 Atomic Purple Console in box Mario Kart in box +Extras",
+       "quantity": 2.0,
+       "unit_price": 51.0,
+       "amount": 102.0
+      },
+      {
+       "description": "SONY Playstation2 Console SCPH-39000 \" Aqua Color \"I TESTED 11181",
+       "quantity": 1.0,
+       "unit_price": 45.0,
+       "amount": 45.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_028.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "97675851",
+     "invoice_date": "2016-05-25",
+     "supplier_name": "Baird PLC 11992 Katherine Centers Hermanfort, WY 69336",
+     "customer_name": "Smith, Reynolds and Dunn 54702 Amanda Light Apt. 767 Bryantbury, UT 94774",
+     "subtotal": 140.67,
+     "tax": 14.07,
+     "total": 154.74,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Lives of the Artists, Vol. 2",
+       "quantity": 4.0,
+       "unit_price": 4.49,
+       "amount": 17.96
+      },
+      {
+       "description": "A Woman of Substance",
+       "quantity": 2.0,
+       "unit_price": 4.89,
+       "amount": 9.78
+      },
+      {
+       "description": "The Heart of Rock & Soul by Dave Marsh",
+       "quantity": 2.0,
+       "unit_price": 4.49,
+       "amount": 8.98
+      },
+      {
+       "description": "The Epic of Gilgamesh",
+       "quantity": 5.0,
+       "unit_price": 4.49,
+       "amount": 22.45
+      },
+      {
+       "description": "CCNA 200-301 50GB AUG 2020 Cisco Video/Official Books/Exam Dumps/Licences",
+       "quantity": 3.0,
+       "unit_price": 1.99,
+       "amount": 5.97
+      },
+      {
+       "description": "Theodore Boone: The Activist by John Grisham",
+       "quantity": 1.0,
+       "unit_price": 4.49,
+       "amount": 4.49
+      },
+      {
+       "description": "Sasinowski M-Heir Of Ra BOOK NEW",
+       "quantity": 4.0,
+       "unit_price": 17.76,
+       "amount": 71.04
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_029.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "52060328",
+     "invoice_date": "2019-10-11",
+     "supplier_name": "Johnson-Cain 6948 Tracy Spring Suite 051 Hannahmouth, GA 68969",
+     "customer_name": "West, Cooper and Welch 50282 Taylor Summit Port Margaret, NJ 49847",
+     "subtotal": 161.0,
+     "tax": 16.1,
+     "total": 177.1,
+     "currency": "USD",
+     "line_items": null
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_030.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "36279024",
+     "invoice_date": "2014-08-18",
+     "supplier_name": "Baker, Michael and Martin 288 Higgins Mission Suite 588 New Ryanfort, CA 65376",
+     "customer_name": "Werner-Castillo 2139 Paul Ramp Suite 264 North Wanda, CT 58759",
+     "subtotal": 1141.06,
+     "tax": 114.11,
+     "total": 1255.17,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Oomphies Boys Ankle Boots Shoes Gray Green Kids Size 2",
+       "quantity": 3.0,
+       "unit_price": 11.99,
+       "amount": 35.97
+      },
+      {
+       "description": "Adult Girl Version Hermione Granger Cosplay Costume Gryffindor Kid size In Stock",
+       "quantity": 5.0,
+       "unit_price": 64.16,
+       "amount": 320.8
+      },
+      {
+       "description": "Boys water/beach/poo! black orange and blue hook and loop size 13-1 shoes",
+       "quantity": 5.0,
+       "unit_price": 1.18,
+       "amount": 5.9
+      },
+      {
+       "description": "INC International Concepts Children Shoes nvyzc7, Black, Size Little Kid 2.5",
+       "quantity": 3.0,
+       "unit_price": 73.48,
+       "amount": 220.44
+      },
+      {
+       "description": "Nautica Kids Boys Navy & Red with White Rubber Sole Running Sneakers Shoes US 10",
+       "quantity": 1.0,
+       "unit_price": 500.0,
+       "amount": 500.0
+      },
+      {
+       "description": "Beyblade Burst B-163 Superking Brave Valkyrie.Ev' 2A Top /Launcher /Grip Kid Toy",
+       "quantity": 5.0,
+       "unit_price": 11.59,
+       "amount": 57.95
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_031.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "64770456",
+     "invoice_date": "2011-10-13",
+     "supplier_name": "Adams-Johnson 71584 Lynn Lock Apt. 469 Port Andrew, ME 57092",
+     "customer_name": "Boyer, Wilson and Ortiz 319 Teresa Squares Lowerystad, NH 98363",
+     "subtotal": 2135.48,
+     "tax": 213.55,
+     "total": 2349.03,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "European Colour Sunflower Pattern Mats Hallway Carpets Doormat Bedroom Area Rugs",
+       "quantity": 4.0,
+       "unit_price": 13.66,
+       "amount": 54.64
+      },
+      {
+       "description": "Floral Style Vintage 5X7 Handmade Bidjar Foyer Rug Oriental Home Decor Carpet",
+       "quantity": 2.0,
+       "unit_price": 889.62,
+       "amount": 1779.24
+      },
+      {
+       "description": "Happy Christmas Home Decoration Rug Mat Carpet Bedroom Rugs Bedside Area Rug New",
+       "quantity": 5.0,
+       "unit_price": 60.32,
+       "amount": 301.6
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_032.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "61942465",
+     "invoice_date": "2012-08-27",
+     "supplier_name": "Jones Ltd USNV Rush FPO AP 95885",
+     "customer_name": "Williams, Kelley and Watts 441 David Mews Port Sharifurt, ID 47380",
+     "subtotal": 40.0,
+     "tax": 4.0,
+     "total": 44.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "DESIGNER MICHAEL KORS DRESS SIZE S",
+       "quantity": 2.0,
+       "unit_price": 20.0,
+       "amount": 40.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_033.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "62788012",
+     "invoice_date": "2013-03-12",
+     "supplier_name": "Barker-Fletcher 4689 Pamela Court Suite 384 Courtneychester, UT 24853",
+     "customer_name": "Anderson, Webb and Perkins 4124 Ray Via South Elizabeth, HI 42034",
+     "subtotal": 199.9,
+     "tax": 19.99,
+     "total": 219.89,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "VINTAGE ANTIQUE BRASS TABLE TOP WINE BOTTLE OPENER /WOOD HANDLE",
+       "quantity": 2.0,
+       "unit_price": 60.0,
+       "amount": 120.0
+      },
+      {
+       "description": "Wall Mounted Upside Down Wine Bottle Rack Goblet Glass Holder Storage Organizer",
+       "quantity": 5.0,
+       "unit_price": 14.98,
+       "amount": 74.9
+      },
+      {
+       "description": "Wine spoon",
+       "quantity": 1.0,
+       "unit_price": 5.0,
+       "amount": 5.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_034.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "87428284",
+     "invoice_date": "2015-06-17",
+     "supplier_name": "Grant and Sons 9167 Holly Divide Apt. 414 Combsside, MI 28094",
+     "customer_name": "Meza, Harrison and Campbell 8386 John Spurs Lauraberg, HI 82777",
+     "subtotal": 19.56,
+     "tax": 1.96,
+     "total": 21.52,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "That Quail Robert",
+       "quantity": 4.0,
+       "unit_price": 4.89,
+       "amount": 19.56
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_035.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "75299595",
+     "invoice_date": "2011-06-03",
+     "supplier_name": "Cox, Bell and Rodriguez 2621 Osborn Walk Suite 041 East Sheila, NJ 06414",
+     "customer_name": "Jackson Group 88641 Patrick Ports Suite 993 Erinfort, TX 62441",
+     "subtotal": 247.86,
+     "tax": 24.79,
+     "total": 272.65,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Chef Wine Bottle Holder",
+       "quantity": 2.0,
+       "unit_price": 65.95,
+       "amount": 131.9
+      },
+      {
+       "description": "9.5 Inch Dinosaur Bones Wine Bottle Holder",
+       "quantity": 1.0,
+       "unit_price": 24.0,
+       "amount": 24.0
+      },
+      {
+       "description": "mDesign Metal Wine Rack Storage Organizer, 6 Bottles Chrome",
+       "quantity": 4.0,
+       "unit_price": 22.99,
+       "amount": 91.96
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_036.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "26307902",
+     "invoice_date": "2015-10-05",
+     "supplier_name": "Moore Ltd 991 Ross Haven Brianhaven, AZ 93880",
+     "customer_name": "Johnson, Harvey and Richardson Unit 2967 Box 1105 DPO AA 07073",
+     "subtotal": 94.6,
+     "tax": 9.46,
+     "total": 104.06,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Wine Bottle Opener Corkscrew Set RED 5 pc Stopper Pourer Foil Cutter Bottle",
+       "quantity": 4.0,
+       "unit_price": 8.65,
+       "amount": 34.6
+      },
+      {
+       "description": "confetti wine glass",
+       "quantity": 4.0,
+       "unit_price": 15.0,
+       "amount": 60.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_037.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "77833987",
+     "invoice_date": "2013-05-20",
+     "supplier_name": "Freeman and Sons 67728 Hebert Parkway Howeburgh, OH 93802",
+     "customer_name": "Houston Group 195 Deanna Rue Robertshire, WY 74880",
+     "subtotal": 117.75,
+     "tax": 11.78,
+     "total": 129.53,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Introduction to Thematic Cartography",
+       "quantity": 1.0,
+       "unit_price": 8.99,
+       "amount": 8.99
+      },
+      {
+       "description": "Sonic Wind The Story of John Paul Stapp and How a Renegade Doctor Be",
+       "quantity": 1.0,
+       "unit_price": 4.49,
+       "amount": 4.49
+      },
+      {
+       "description": "Entertaining",
+       "quantity": 1.0,
+       "unit_price": 4.49,
+       "amount": 4.49
+      },
+      {
+       "description": "Rebecca to the Rescue (American Girl (Quality))",
+       "quantity": 2.0,
+       "unit_price": 4.89,
+       "amount": 9.78
+      },
+      {
+       "description": "Gulag archipelago / Gulag Archipelago Volume 21 1st edition paperbacks",
+       "quantity": 3.0,
+       "unit_price": 30.0,
+       "amount": 90.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_038.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "61669642",
+     "invoice_date": "2013-11-12",
+     "supplier_name": "Carter Inc 7936 Smith Streets Mariahchester, PA 08114",
+     "customer_name": "Torres, Sutton and Weeks 618 Perez Shoals Suite 978 Bradshawton, TN 51301",
+     "subtotal": 137.62,
+     "tax": 13.76,
+     "total": 151.38,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Jesus (Hardback or Cased Book)",
+       "quantity": 4.0,
+       "unit_price": 31.96,
+       "amount": 127.84
+      },
+      {
+       "description": "Haida: Their Art and Culture",
+       "quantity": 2.0,
+       "unit_price": 4.89,
+       "amount": 9.78
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_039.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "35593328",
+     "invoice_date": "2011-06-08",
+     "supplier_name": "Cruz-Carter 11251 Braun Square North Alejandro, UT 73496",
+     "customer_name": "Alexander-Arias 63947 Erin Parkway Apt. 073 Guzmanshire, NY 08857",
+     "subtotal": 2731.78,
+     "tax": 273.18,
+     "total": 3004.96,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "hp all in one desktop computer touch screen",
+       "quantity": 4.0,
+       "unit_price": 205.0,
+       "amount": 820.0
+      },
+      {
+       "description": "W5 Pro Mini Pocket PC Windows 10 Computer Stick Intel Z8350 Quad Core",
+       "quantity": 3.0,
+       "unit_price": 119.0,
+       "amount": 357.0
+      },
+      {
+       "description": "Gaming PC Desktop Computer HDMI RGB Intel i7 RTX 2060, HDD+SSD, Windows 10, Wifi",
+       "quantity": 1.0,
+       "unit_price": 999.5,
+       "amount": 999.5
+      },
+      {
+       "description": "Lenovo C20-00...all in one desktop computer . with Wireless Mouse..",
+       "quantity": 2.0,
+       "unit_price": 277.64,
+       "amount": 555.28
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_040.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "34967709",
+     "invoice_date": "2018-01-16",
+     "supplier_name": "Burns, King and Serrano 75240 Munoz Bypass Suite 960 East Tylerton, WA 04004",
+     "customer_name": "Bryant-Wall 21372 Nelson Fork Suite 152 North Pamela, OK 82764",
+     "subtotal": 499.98,
+     "tax": 50.0,
+     "total": 549.98,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo 64 console complete in box with extra controller",
+       "quantity": 2.0,
+       "unit_price": 249.99,
+       "amount": 499.98
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_041.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "32530472",
+     "invoice_date": "2015-08-27",
+     "supplier_name": "Cooper-Fox 00959 Gregory Valleys Apt. 881 East Samuel, CA 09564",
+     "customer_name": "Williams-Lucero 303 Solomon Lake Apt. 277 Weberland, OR 55395",
+     "subtotal": 170.0,
+     "tax": 17.0,
+     "total": 187.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo Gameboy Pocket Console Clear Purple with Box MGB-001 Japan Tested 53",
+       "quantity": 2.0,
+       "unit_price": 85.0,
+       "amount": 170.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_042.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "61874671",
+     "invoice_date": "2018-07-26",
+     "supplier_name": "Gonzales-Faulkner 2532 lan Springs Suite 638 Williamshire, NE 03882",
+     "customer_name": "Garcia-jones 0715 Vasquez Ford East Jeanette, MD 91592",
+     "subtotal": 284.48,
+     "tax": 28.45,
+     "total": 312.93,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "fire los angeles dress Medium",
+       "quantity": 3.0,
+       "unit_price": 6.5,
+       "amount": 19.5
+      },
+      {
+       "description": "Tommy Bahama Women's V Neck Linen Floral Dress Size M Beige Short Sleeve Tan",
+       "quantity": 2.0,
+       "unit_price": 34.99,
+       "amount": 69.98
+      },
+      {
+       "description": "Jams World Hawaiian 0 Dress Rayon SZ.L",
+       "quantity": 3.0,
+       "unit_price": 65.0,
+       "amount": 195.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_043.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "62256280",
+     "invoice_date": "2020-11-08",
+     "supplier_name": "Myers Inc 41819 Garrett Pass Suite 517 New Bryan, NC 40626",
+     "customer_name": "Cook-Smith 88740 Tyler Meadow Suite 201 Garciamouth, KY 01739",
+     "subtotal": 2700.0,
+     "tax": 270.0,
+     "total": 2970.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Yilong 1'x1.5' 400Lines Area Rug High Density Hand knotted Silk Carpet 221H",
+       "quantity": 5.0,
+       "unit_price": 540.0,
+       "amount": 2700.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_044.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "25687531",
+     "invoice_date": "2012-01-10",
+     "supplier_name": "Moore, Gallagher and Villanueva 908 Reed Garden Lake James, CO 74955",
+     "customer_name": "Jones, Andrade and Roth 86208 Kathryn Extensions Suite 300 Mcmillanton, MD 03357",
+     "subtotal": 1125.0,
+     "tax": 112.5,
+     "total": 1237.5,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Custom Build Dell Desktop Computer i5 I 16GB I 1TB SSD I HDMI Windows 10 PC WiFi",
+       "quantity": 5.0,
+       "unit_price": 99.0,
+       "amount": 495.0
+      },
+      {
+       "description": "Computer Desktop Gaming i5 Ram 16 G",
+       "quantity": 2.0,
+       "unit_price": 315.0,
+       "amount": 630.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_045.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "30885203",
+     "invoice_date": "2020-03-28",
+     "supplier_name": "Shepard PLC 38754 Lisa Grove Lake Billyton, ID 54381",
+     "customer_name": "Mays and Sons 4681 Warner Mountains Gillmouth, NY 78497",
+     "subtotal": 322.79,
+     "tax": 32.28,
+     "total": 355.07,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "CORK POPS Black WINE OPENER and Foil Remover",
+       "quantity": 3.0,
+       "unit_price": 8.0,
+       "amount": 24.0
+      },
+      {
+       "description": "Stemware Rack Display Kitchen Wine Glass Holder Bottle Carbon Steel Free Punch",
+       "quantity": 3.0,
+       "unit_price": 42.32,
+       "amount": 126.96
+      },
+      {
+       "description": "Bicycle Wine Bottle Holder/Excellent Condition",
+       "quantity": 4.0,
+       "unit_price": 4.99,
+       "amount": 19.96
+      },
+      {
+       "description": "Vintage Anjou Water Goblets/Wine Glass New Set by Leonard Silver MFG 4 Piece Set",
+       "quantity": 3.0,
+       "unit_price": 9.0,
+       "amount": 27.0
+      },
+      {
+       "description": "Wine Things Unlimited - Tipsy Wine Elf Pewter Wine Bottle Stopper/Cork",
+       "quantity": 5.0,
+       "unit_price": 8.99,
+       "amount": 44.95
+      },
+      {
+       "description": "Waterford Elegance Chardonnay Wine Glass, Pair - 40001097 New In Box",
+       "quantity": 4.0,
+       "unit_price": 19.98,
+       "amount": 79.92
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_046.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "81384146",
+     "invoice_date": "2015-01-24",
+     "supplier_name": "Long, Craig and Ford 0825 Nathan Garden Apt. 573 Briannaside, GA 63563",
+     "customer_name": "Golden PLC 51414 Jennifer Drive Suite 090 Brandystad, WI 43381",
+     "subtotal": 324.25,
+     "tax": 32.43,
+     "total": 356.68,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Hot Toys COSB748 Mandalorian & The Child COSBABY Mini Figure Model Collection",
+       "quantity": 4.0,
+       "unit_price": 32.89,
+       "amount": 131.56
+      },
+      {
+       "description": "All Mattel Disney Pixar Model Cars McQueen 1:55 Diecast Lot Choose Loose Kid Toy",
+       "quantity": 5.0,
+       "unit_price": 12.99,
+       "amount": 64.95
+      },
+      {
+       "description": "Skechers Shoes Kids Size 2",
+       "quantity": 2.0,
+       "unit_price": 10.0,
+       "amount": 20.0
+      },
+      {
+       "description": "foamposite Size 6c",
+       "quantity": 2.0,
+       "unit_price": 22.4,
+       "amount": 44.8
+      },
+      {
+       "description": "Lakai Select Skate Shoe - Little Boy's 11 - Black",
+       "quantity": 3.0,
+       "unit_price": 0.99,
+       "amount": 2.97
+      },
+      {
+       "description": "Joma Boys Youth Gol-102 Soccer Cleats Shoes Size 1.5 White Red 1.5Y NEW",
+       "quantity": 3.0,
+       "unit_price": 19.99,
+       "amount": 59.97
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_047.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "42760323",
+     "invoice_date": "2020-09-23",
+     "supplier_name": "Martin-Butler 1654 Jeremy Garden South Alexandriaville, VA 71760",
+     "customer_name": "Patterson, Garza and Adkins 6224 Arellano Pines Davidburgh, SC 86433",
+     "subtotal": 25329.96,
+     "tax": 2533.0,
+     "total": 27862.96,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "YILONG 5'x7.5' Handknotted Silk Carpet Whirlwind Home Decor Classic Rug 0807",
+       "quantity": 3.0,
+       "unit_price": 8400.0,
+       "amount": null
+      },
+      {
+       "description": "Yilong 5'x7' Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047",
+       "quantity": 2.0,
+       "unit_price": null,
+       "amount": 16800.0
+      },
+      {
+       "description": "Fluffy Rugs Anti-slip Area Rug Dining Room Carpet Floor Mat Home Bedroom Decor !",
+       "quantity": 4.0,
+       "unit_price": 4.99,
+       "amount": 19.96
+      },
+      {
+       "description": "Turkish Kayseri Small Kilim Rug, Doormat, Bathmat, Decor Area Rug Carpet 41\"x74\"",
+       "quantity": 2.0,
+       "unit_price": 55.0,
+       "amount": 110.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_048.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "37959814",
+     "invoice_date": "2013-07-12",
+     "supplier_name": "Moore, Wells and Wilson 98502 Walker Parkways Cassandraside, OR 96399",
+     "customer_name": "Hopkins-Moreno 6832 Rice Mill Apt. 735 Carterfort, NV 04380",
+     "subtotal": 6623.62,
+     "tax": 662.36,
+     "total": 7285.98,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "10-Core Gaming Computer Desktop PC Tower HDMI 8GB DDR4 R7 Graphic CUSTOM BUILT",
+       "quantity": 4.0,
+       "unit_price": 348.88,
+       "amount": 1395.52
+      },
+      {
+       "description": "Dell Desktop Computer 3020 Micro Tiny PC Intel i3 4GB 120GB SSD Windows 10 WiFi",
+       "quantity": 5.0,
+       "unit_price": 134.95,
+       "amount": 674.75
+      },
+      {
+       "description": "Custom Gaming Computer Ryzen 7 2700 32GB DDR4 Nvidia RTX 2060 RGB SSD 500GB HDD",
+       "quantity": 2.0,
+       "unit_price": 1092.27,
+       "amount": 2184.54
+      },
+      {
+       "description": "10-Core Gaming Computer Desktop PC Tower 500 GB Quad 8GB AMD R7 GRAPHICS NEW",
+       "quantity": 3.0,
+       "unit_price": 501.32,
+       "amount": 1503.96
+      },
+      {
+       "description": "Dell Desktop Computer PC Optiplex 790 Quad Core i5 8GB 480GB SSD Windows 10 Wifi",
+       "quantity": 5.0,
+       "unit_price": 144.99,
+       "amount": 724.95
+      },
+      {
+       "description": "Dell Desktop ComputerlIntel Core 2 Duo 8GB 1TB HD Windows 10 PC 22\" LCD Wifi",
+       "quantity": 2.0,
+       "unit_price": 69.95,
+       "amount": 139.9
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_049.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "40949664",
+     "invoice_date": "2020-05-12",
+     "supplier_name": "Smith, Johnson and Moore 701 Timothy Rapids Suite 816 Lake Andres, KY 81497",
+     "customer_name": "Taylor PLC Unit 8528 Box 8676 DPO AE 62685",
+     "subtotal": 382.95,
+     "tax": 38.3,
+     "total": 421.25,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "R&M; RICHARDS WOMAN'S BLUE DRESS With Rhinestone Accent Short Sleeves Sz 16W",
+       "quantity": 3.0,
+       "unit_price": 29.99,
+       "amount": 89.97
+      },
+      {
+       "description": "SCOTT MCCINTOCK SIZE 12 BLACK PARTY DRESS WITH SPARKLIND TOP",
+       "quantity": 5.0,
+       "unit_price": 25.0,
+       "amount": 125.0
+      },
+      {
+       "description": "Vintage Gothic Lolita Dress Women Loose Puff Sleeve Pure Color Princess Dresses",
+       "quantity": 3.0,
+       "unit_price": 22.77,
+       "amount": 68.31
+      },
+      {
+       "description": "NWOT Italian Dress Grey Black Size XS Made in Italy",
+       "quantity": 1.0,
+       "unit_price": 44.99,
+       "amount": 44.99
+      },
+      {
+       "description": "14 Colors Women Spaghetti Strap Bodycon Mini Dress Sexy Party Club Wear Dresses",
+       "quantity": 4.0,
+       "unit_price": 4.71,
+       "amount": 18.84
+      },
+      {
+       "description": "KAREN SCOTT 3X DRESS",
+       "quantity": 1.0,
+       "unit_price": 5.99,
+       "amount": 5.99
+      },
+      {
+       "description": "Adult Kids Pokemon Pikachu Kigurumi Pajama Cosplay Christmas Costume Sleepwear",
+       "quantity": 3.0,
+       "unit_price": 9.95,
+       "amount": 29.85
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  }
+ ]
+}

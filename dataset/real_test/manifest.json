@@ -1,0 +1,1265 @@
+{
+ "source": "test.parquet",
+ "files": [
+  {
+   "file": "real_000.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "97159829",
+     "invoice_date": "2015-09-18",
+     "supplier_name": "Bradley-Andrade 9879 Elizabeth Common Lake Jonathan, RI 12335",
+     "customer_name": "Castro PLC Unit 9678 Box 9664 DPO AP 69387",
+     "subtotal": 889.2,
+     "tax": 88.92,
+     "total": 978.12,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "12\" Marble Lapis Inlay Chess Table Top With 2\" Pieces & 15\" Wooden Stand W537",
+       "quantity": 2.0,
+       "unit_price": 444.6,
+       "amount": 889.2
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_001.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "13194726",
+     "invoice_date": "2021-05-29",
+     "supplier_name": "Hopkins and Sons 62283 Flores Tunnel North Luis, IA 69983",
+     "customer_name": "Sims PLC USS Kramer FPO AA 81651",
+     "subtotal": 581.93,
+     "tax": 58.19,
+     "total": 640.12,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Beach Lunch Lounge Striped Shirt Dress Large Navy Blue White Long Sleeve Causal",
+       "quantity": 1.0,
+       "unit_price": 16.99,
+       "amount": 16.99
+      },
+      {
+       "description": "Jams World Hawaiian 0 Dress Rayon SZ.L",
+       "quantity": 5.0,
+       "unit_price": 65.0,
+       "amount": 325.0
+      },
+      {
+       "description": "LuLaRoe Nicole Dress Size Large 26",
+       "quantity": 2.0,
+       "unit_price": 1.99,
+       "amount": 3.98
+      },
+      {
+       "description": "Johnny Was Medium Linen Wrap Dress Dessert Rose Embroiderd Bohemian",
+       "quantity": 2.0,
+       "unit_price": 89.99,
+       "amount": 179.98
+      },
+      {
+       "description": "Eileen Fisher Women's Long Sleeve Fleece Lined Front Pockets Dress XS Gray",
+       "quantity": 2.0,
+       "unit_price": 15.99,
+       "amount": 31.98
+      },
+      {
+       "description": "Hanna Anderson Women's L Large Coral Short Sleeve Casual Fall Tee Shirt Dress",
+       "quantity": 1.0,
+       "unit_price": 24.0,
+       "amount": 24.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_002.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "62517865",
+     "invoice_date": "2015-06-02",
+     "supplier_name": "Trujillo-Hunt 430 Mark Ferry Suite 495 Maxside, DC 65686",
+     "customer_name": "Lee and Sons 8552 Karen Islands East Roger, ID 40416",
+     "subtotal": 8.5,
+     "tax": 0.85,
+     "total": 9.35,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Care & Repair of Furniture",
+       "quantity": 2.0,
+       "unit_price": 4.25,
+       "amount": 8.5
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_003.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "56014042",
+     "invoice_date": "2014-10-01",
+     "supplier_name": "Nichols-Barajas 3882 Stacy Ville Apt. 488 Lake Kristinatown, ND 48049",
+     "customer_name": "Mckay PLC 5542 Danielle Drive Suite 381 West Mason, ME 76671",
+     "subtotal": 59.5,
+     "tax": 5.95,
+     "total": 65.45,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Jordan Hydro 2 (TD)-Child Size",
+       "quantity": 2.0,
+       "unit_price": 5.75,
+       "amount": 11.5
+      },
+      {
+       "description": "Sketchers Energy Lights Boys Black Canvas Size 4 With Charging Cable",
+       "quantity": 4.0,
+       "unit_price": 12.0,
+       "amount": 48.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_004.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "16662010",
+     "invoice_date": "2016-08-28",
+     "supplier_name": "Smith-Cook 174 Justin Causeway West Michaelmouth, ME 69894",
+     "customer_name": "Snyder-Johnson 05173 Heather Mill Jenniferfort, WV79662",
+     "subtotal": 2053.73,
+     "tax": 205.37,
+     "total": 2259.1,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Nintendo Gameboy Pocket Console Green with Box MGB-001 Japan Tested Working 59",
+       "quantity": 1.0,
+       "unit_price": 65.0,
+       "amount": 65.0
+      },
+      {
+       "description": "New Sony Playstation 4 Slim 1TB 3 Game Bundle Console. Sealed!!!",
+       "quantity": 3.0,
+       "unit_price": 399.99,
+       "amount": 1199.97
+      },
+      {
+       "description": "Atari Flashback 4 Classic Game Console 75 built in games Space Invaders Asteroid",
+       "quantity": 4.0,
+       "unit_price": 8.5,
+       "amount": 34.0
+      },
+      {
+       "description": "Sony PlayStation 1 PS1 Console model scph-7501",
+       "quantity": 4.0,
+       "unit_price": 14.99,
+       "amount": 59.96
+      },
+      {
+       "description": "Nintendo Wii Console 2 Remotes w/ Covers, Nunchucks, Sensor Sega Game Bundle",
+       "quantity": 1.0,
+       "unit_price": 85.0,
+       "amount": 85.0
+      },
+      {
+       "description": "Sony PlayStation 3 PS3 Super Slim Black Console 20GB *Tested* Console & Cables",
+       "quantity": 4.0,
+       "unit_price": 99.95,
+       "amount": 399.8
+      },
+      {
+       "description": "Nintendo Gameboy Pocket Console Green with Box MGB-001 Japan Tested Working",
+       "quantity": 3.0,
+       "unit_price": 70.0,
+       "amount": 210.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_005.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "27543706",
+     "invoice_date": "2020-07-20",
+     "supplier_name": "Kaiser, Hays and Cook 460 Richard Forge Lake Maria, CA 86826",
+     "customer_name": "Holland PLC 10833 Hill Courts Suite 606 Collinsland, CA 60385",
+     "subtotal": 44364.64,
+     "tax": 4436.46,
+     "total": 48801.1,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Marble Beautiful White Coffee Table Top Malachite Inlay Art Home Decor H5372",
+       "quantity": 5.0,
+       "unit_price": 271.01,
+       "amount": 1355.05
+      },
+      {
+       "description": "15\"x15\" White Decorative Coffee Table Top Lapis Lazuli Marquetery Patio D\u00e9cor",
+       "quantity": 4.0,
+       "unit_price": 645.77,
+       "amount": 2583.08
+      },
+      {
+       "description": "16 Inches Marble Coffee Table Top Inlay with Multi Stone at Border Game Table",
+       "quantity": 1.0,
+       "unit_price": 280.5,
+       "amount": 280.5
+      },
+      {
+       "description": "18\" Black Marble Coffee Table Top Mother of Pearl Inlay Furniture Decors H1883B",
+       "quantity": 3.0,
+       "unit_price": 377.65,
+       "amount": 1132.95
+      },
+      {
+       "description": "7'x4' Pietra Dura Marble Dining Hallway Table Top Inlay Design Patio Decor E977A",
+       "quantity": 2.0,
+       "unit_price": 19506.53,
+       "amount": 39013.06
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_006.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "26343874",
+     "invoice_date": "2013-07-17",
+     "supplier_name": "Smith Ltd 290 Jodi Gardens Charlesview, TN 10958",
+     "customer_name": "Herring-Floyd 8113 Hansen Cliff Apt. 826 Port Alice, ID 99663",
+     "subtotal": 3172.99,
+     "tax": 317.3,
+     "total": 3490.29,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Microsoft Xbox One X 1TB 4k Ultra HD Console black controller works great 1787",
+       "quantity": 5.0,
+       "unit_price": 249.0,
+       "amount": 1245.0
+      },
+      {
+       "description": "Cables 500gb,Sony PlayStation 4 PS4 CUH 1215A Jet Black Console w/ Controller",
+       "quantity": 5.0,
+       "unit_price": 100.0,
+       "amount": 500.0
+      },
+      {
+       "description": "PS2 Slim Console System SCPH-77000 PINK Playstation 2 Tested",
+       "quantity": 4.0,
+       "unit_price": 252.0,
+       "amount": 1008.0
+      },
+      {
+       "description": "Nintendo Game Boy Micro Console - Black (OXYSFBB)",
+       "quantity": 2.0,
+       "unit_price": 130.0,
+       "amount": 260.0
+      },
+      {
+       "description": "Nintendo GameCube System Console Bundle Mario Sunshine + Genuine controller LOT",
+       "quantity": 1.0,
+       "unit_price": 159.99,
+       "amount": 159.99
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_007.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "12222347",
+     "invoice_date": "2017-03-18",
+     "supplier_name": "Gregory, Patterson and Fischer 439 Hunter Land South Jameschester, MT 09091",
+     "customer_name": "Wilson PLC 667 Wu Ports Marshallmouth, AK 03373",
+     "subtotal": 123.75,
+     "tax": 12.38,
+     "total": 136.13,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Zara Yellow Shift Dress XS",
+       "quantity": 5.0,
+       "unit_price": 24.75,
+       "amount": 123.75
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_008.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "25698672",
+     "invoice_date": "2015-08-01",
+     "supplier_name": "Gordon, Alvarado and Jones 943 Sean Park Suite 284 North Derrick, OR 67536",
+     "customer_name": "Manning-Ho 92026 Michael Terrace Apt. 138 West Michael, IL 42693",
+     "subtotal": 115.45,
+     "tax": 11.55,
+     "total": 127.0,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "CCNA 200-301 50 GB AUG 2020 Cisco Video/Official Books/Exam Dumps/Licences",
+       "quantity": 5.0,
+       "unit_price": 1.99,
+       "amount": 9.95
+      },
+      {
+       "description": "Tales from the Buffalo Bills",
+       "quantity": 5.0,
+       "unit_price": 5.5,
+       "amount": 27.5
+      },
+      {
+       "description": "A boy who grew up eating nightmare It's Okay to Not Be Okay Picturebook 00000000",
+       "quantity": 4.0,
+       "unit_price": 19.5,
+       "amount": 78.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_009.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "24048799",
+     "invoice_date": "2014-05-21",
+     "supplier_name": "Rodriguez-jackson 4804 Riley Row Suite 059 East Edwardtown, MN 91106",
+     "customer_name": "Williams, Fletcher and Taylor 9371 Harvey Port Suite 901 South Tabitha, ID 50921",
+     "subtotal": 4.95,
+     "tax": 0.5,
+     "total": 5.45,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Large Blue Long Sleeve Fit & Flare Dress Elastic Waist Crochet Detail Bohemian",
+       "quantity": 5.0,
+       "unit_price": 0.99,
+       "amount": 4.95
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_010.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "72455228",
+     "invoice_date": "2021-05-11",
+     "supplier_name": "Potts, Reed and Miller USCGC Weeks FPO AA 06868",
+     "customer_name": "Brady LLC 26039 Anita Stravenue North Peter, WA 22187",
+     "subtotal": 1959.98,
+     "tax": 196.0,
+     "total": 2155.98,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "PlayStation 5 Console Disc Version PREORDER\"00OO",
+       "quantity": 1.0,
+       "unit_price": 899.99,
+       "amount": 899.99
+      },
+      {
+       "description": "Sony PlayStation 4 Slim 1TB (Upgraded to SSD) Black Game Console",
+       "quantity": 2.0,
+       "unit_price": 150.0,
+       "amount": 300.0
+      },
+      {
+       "description": "Nintendo Gameboy Pocket Console Clear Purple with Box MGB-001 Japan Tested 53",
+       "quantity": 1.0,
+       "unit_price": 85.0,
+       "amount": 85.0
+      },
+      {
+       "description": "NEC PC Engine INTERFACE UNIT IFU-30 CD ROM Console PI-TG001 Tested Japan",
+       "quantity": 1.0,
+       "unit_price": 159.99,
+       "amount": 159.99
+      },
+      {
+       "description": "SONY Playstation2 Slim Console set \" SCPH-90000 / White \"I TESTED Working 11194",
+       "quantity": 4.0,
+       "unit_price": 90.0,
+       "amount": 360.0
+      },
+      {
+       "description": "Magnavox Odyssey 2 Microprocessor Console System w Joy Sticks & 15 Games - 1978",
+       "quantity": 1.0,
+       "unit_price": 155.0,
+       "amount": 155.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_011.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "58478169",
+     "invoice_date": "2016-07-04",
+     "supplier_name": "Conley Ltd 262 Jeffrey Underpass Jamesview, WA 14945",
+     "customer_name": "Wells-Avery 7065 Alejandro Forks Lake Jeffrey, ME 59849",
+     "subtotal": 11147.25,
+     "tax": 1114.73,
+     "total": 12261.98,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "30 Inches Marble Patio Table Top Malachite Stone Inlaid Coffee Table Home Decor",
+       "quantity": 3.0,
+       "unit_price": 1023.75,
+       "amount": 3071.25
+      },
+      {
+       "description": "48 Inch Marble Restaurant Table Inlay with Lapis Lazuli Stone Dinning Table Top",
+       "quantity": 3.0,
+       "unit_price": 2692.0,
+       "amount": 8076.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_012.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "90508672",
+     "invoice_date": "2020-04-16",
+     "supplier_name": "Stone-Waller 53428 Peter Dale Apt. 293 Amberchester, IA 57427",
+     "customer_name": "Shaw Group 58420 John Turnpike Suite 767 North Ricardo, NV 32611",
+     "subtotal": 6411.35,
+     "tax": 641.14,
+     "total": 7052.49,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "SOFA SET",
+       "quantity": 2.0,
+       "unit_price": 250.0,
+       "amount": 500.0
+      },
+      {
+       "description": "Real Madrid Inflatable Chair (SG16136)",
+       "quantity": 3.0,
+       "unit_price": 43.95,
+       "amount": 131.85
+      },
+      {
+       "description": "13 Inch Marble Coffee Table Stone Game Table Mother of Pearl with Check Pattern",
+       "quantity": 4.0,
+       "unit_price": 301.75,
+       "amount": 1207.0
+      },
+      {
+       "description": "Carnelian Stone Floral Pattern Dinette Table Top Marble Coffee Table 30 Inches",
+       "quantity": 2.0,
+       "unit_price": 993.75,
+       "amount": 1987.5
+      },
+      {
+       "description": "3'x2' Black Marvels Top Dining Table Italian Handmade Floral Art Christmas Gift",
+       "quantity": 1.0,
+       "unit_price": 2585.0,
+       "amount": 2585.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_013.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "96051364",
+     "invoice_date": "2020-04-28",
+     "supplier_name": "Jackson Ltd 134 Catherine Valley Apt. 756 Lake Jennifer, NE 09531",
+     "customer_name": "Williams, Fowler and Phillips 115 Mccormick Knolls North Kevin, TN 27580",
+     "subtotal": 143572.15,
+     "tax": 14357.22,
+     "total": 1579929.37,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "49\"x22\" Marble Top Center Table Carnelian Mosaic Italian Art Christmas Gift Arts",
+       "quantity": 4.0,
+       "unit_price": 2400.0,
+       "amount": 9600.0
+      },
+      {
+       "description": "6'x3' Marble Dining Center Table With Black Top Floral Collectible Inlaid E963",
+       "quantity": 3.0,
+       "unit_price": 6040.4,
+       "amount": 18121.2
+      },
+      {
+       "description": "7'x4' Blue Random Marble Dining Hallway Table Top Lapis Lazuli Inlay Decor E947A",
+       "quantity": 5.0,
+       "unit_price": 8194.09,
+       "amount": 40970.45
+      },
+      {
+       "description": "36\" Marble White Top Counter Table Lapis Inlaid Pietradura Art Christmas Gifts",
+       "quantity": 3.0,
+       "unit_price": 3200.0,
+       "amount": 9600.0
+      },
+      {
+       "description": "6'x3' White Marble Dining Table Top Multi Inlay Floral Elephant Art Decor H4952",
+       "quantity": 5.0,
+       "unit_price": 6408.49,
+       "amount": 32042.45
+      },
+      {
+       "description": "6'x3' Marble Dining Center Table Marquetry Inlay Italian Mosaic Patio Arts H3112",
+       "quantity": 5.0,
+       "unit_price": 6647.61,
+       "amount": null
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_014.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "67856369",
+     "invoice_date": "2020-05-27",
+     "supplier_name": "Pierce PLC 3454 Mcbride Ramp Apt. 312 New Judy, WI 36022",
+     "customer_name": "Cochran-Alvarez 488 Kenneth Mission Port Caroltown, NY 43776",
+     "subtotal": 4502.56,
+     "tax": 450.26,
+     "total": 4952.82,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "24 Inches Round Marble Coffee Table Top Inlay Sofa Table with Geometrical Design",
+       "quantity": 4.0,
+       "unit_price": 446.25,
+       "amount": 1785.0
+      },
+      {
+       "description": "30\"x30\" Marble Black Top Table Semi Precious Bird Art Black Friday Gift D\u00e9cor",
+       "quantity": 1.0,
+       "unit_price": 2399.0,
+       "amount": 2399.0
+      },
+      {
+       "description": "2 Industrial Live edge Legs 16\" Tall Cast Aluminum Cast Iron Coffee Table Bench",
+       "quantity": 2.0,
+       "unit_price": 159.28,
+       "amount": 318.56
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_015.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "69934544",
+     "invoice_date": "2014-04-17",
+     "supplier_name": "Spence-Castro 547 Reynolds Trafficway Suite 938 Joshuabury, RI 79742",
+     "customer_name": "Wolfe and Sons 45940 Larson Stravenue Suite 451 Port Michelle, WI 66283",
+     "subtotal": 39.96,
+     "tax": 4.0,
+     "total": 43.96,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Hammered Brass Over Stainless steel Stemless Wine Glasses/ Candle Holders",
+       "quantity": 4.0,
+       "unit_price": 9.99,
+       "amount": 39.96
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_016.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "23152691",
+     "invoice_date": "2015-08-01",
+     "supplier_name": "Whitaker Ltd 57724 Hall Flats Apt. 570 Robertsonstad, KS 16218",
+     "customer_name": "Stout-Miller 80207 Samantha Streets Suite 926 Thomaschester, DE 30356",
+     "subtotal": 4348.82,
+     "tax": 434.88,
+     "total": 4783.7,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "personal computer",
+       "quantity": 4.0,
+       "unit_price": 59.0,
+       "amount": 236.0
+      },
+      {
+       "description": "HP All-in-One Computer 22\" Full-HD Display Intel 2.90GHz 4GB 1TB HD Win10 - TEAL",
+       "quantity": 1.0,
+       "unit_price": 449.99,
+       "amount": 449.99
+      },
+      {
+       "description": "Dell Optiplex SFF Desktop Computer Windows 10 4GB 160GB",
+       "quantity": 4.0,
+       "unit_price": 89.99,
+       "amount": 359.96
+      },
+      {
+       "description": "HP Elite 8300 Business USFF Desktop Computer i3 4GB 250GB Windows 10",
+       "quantity": 2.0,
+       "unit_price": 84.99,
+       "amount": 169.98
+      },
+      {
+       "description": "SAMA RGB Gaming PC Desktop Computer i5 3.7GHz Nvidia GTX 1060 16GB Windows 10",
+       "quantity": 5.0,
+       "unit_price": 400.0,
+       "amount": 2000.0
+      },
+      {
+       "description": "Lenovo C20-00...all in one desktop computer ...with Wireless Mouse.....",
+       "quantity": 3.0,
+       "unit_price": 277.64,
+       "amount": 832.92
+      },
+      {
+       "description": "Dell Optiplex 7040 SFF PC Computer Intel Core i5-6500 3.2GHz 4GB RAM 500GB HDD",
+       "quantity": 3.0,
+       "unit_price": 99.99,
+       "amount": 299.97
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_017.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "14878236",
+     "invoice_date": "2015-04-26",
+     "supplier_name": "Hernandez, Coleman and Alvarado 6080 Justin Fort Suite 152 Brownburgh, NC 87582",
+     "customer_name": "Turner-Green 7245 Stephens Orchard Lake Mitchellview, MI 50388",
+     "subtotal": 516.81,
+     "tax": 51.68,
+     "total": 568.49,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Cabi 5610 Striped White Blue Launch Maxi Dress Womens Sz",
+       "quantity": 3.0,
+       "unit_price": 48.99,
+       "amount": 146.97
+      },
+      {
+       "description": "Boden black blue floral short sleeve dress size 6",
+       "quantity": 2.0,
+       "unit_price": 36.99,
+       "amount": 73.98
+      },
+      {
+       "description": "Ann Taylor LOFT 3/4 Knit Sleeve Dress Size 0",
+       "quantity": 4.0,
+       "unit_price": 8.0,
+       "amount": 32.0
+      },
+      {
+       "description": "Divided Black Asymmetrical Dress size 8 NWT",
+       "quantity": 2.0,
+       "unit_price": 7.99,
+       "amount": 15.98
+      },
+      {
+       "description": "Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress",
+       "quantity": 4.0,
+       "unit_price": 12.0,
+       "amount": 48.0
+      },
+      {
+       "description": "Vintage 90s Sostanza Plus Size Dress 22W Floral Cottagecore",
+       "quantity": 3.0,
+       "unit_price": 49.96,
+       "amount": 149.88
+      },
+      {
+       "description": "Matilda Jane Women's Light Rising High Low Green Floral Dress Size L Pockets",
+       "quantity": 1.0,
+       "unit_price": 50.0,
+       "amount": 50.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_018.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "84777898",
+     "invoice_date": "2017-06-02",
+     "supplier_name": "Byrd PLC 5954 Stewart Isle Suite 748 South Sarahshire, DC 77638",
+     "customer_name": "Palmer LLC 321 Sarah Forge North Elizabeth, KY 13557",
+     "subtotal": 286.02,
+     "tax": 28.6,
+     "total": 314.62,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Vintage Cobalt Blue Spiral Stemmed Wine Glasses Pair",
+       "quantity": 1.0,
+       "unit_price": 30.0,
+       "amount": 30.0
+      },
+      {
+       "description": "1PC Tricycle Shape Red Wine Rack Cocktail Holder Wine Display Rack for Home Bar",
+       "quantity": 5.0,
+       "unit_price": 32.13,
+       "amount": 160.65
+      },
+      {
+       "description": "Wine Glass European Style Wine Glass Rack for Home Kitchen Bar Restaurant",
+       "quantity": 3.0,
+       "unit_price": 31.79,
+       "amount": 95.37
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_019.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "57338979",
+     "invoice_date": "2021-05-10",
+     "supplier_name": "Estrada and Sons 70379 Brooks Heights Apt. 110 Lake Megan, WI 84417",
+     "customer_name": "Santana-Sherman 4195 Sutton Plaza Suite 750 Christopherfort, MS 70499",
+     "subtotal": 13717.81,
+     "tax": 1371.78,
+     "total": 15089.59,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "3'x2' Black Marvels Top Dining Table Italian Handmade Floral Art Christmas Gift",
+       "quantity": 5.0,
+       "unit_price": 2585.0,
+       "amount": 12925.0
+      },
+      {
+       "description": "12\" Marble Coffee Table Top Multi Stone Peacock & Floral Inlay Home Decors W364",
+       "quantity": 3.0,
+       "unit_price": 264.27,
+       "amount": 792.81
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_020.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "54394190",
+     "invoice_date": "2021-02-23",
+     "supplier_name": "Nelson, Bird and Mendoza 48426 John Village Suite 517 Boydstad, ID 55416",
+     "customer_name": "Allen Inc USS Smith FPO AP 40020",
+     "subtotal": 3359.94,
+     "tax": 335.99,
+     "total": 3695.93,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Microsoft Xbox One S 1TB Console System Model 1681 w/ One Controller & Cables",
+       "quantity": 1.0,
+       "unit_price": 219.99,
+       "amount": 219.99
+      },
+      {
+       "description": "Nintendo 64 N64 Console Complete in Box Mint Beautiful! From Japan!",
+       "quantity": 1.0,
+       "unit_price": 269.99,
+       "amount": 269.99
+      },
+      {
+       "description": "Pre Order New Sony PlayStation 5 Console Disk Version Ships Fast 11/12 Confirmed",
+       "quantity": 3.0,
+       "unit_price": 850.0,
+       "amount": 2550.0
+      },
+      {
+       "description": "Sony SCPH-30001R PlayStation 2F Fat Console System w/ Network Adapter",
+       "quantity": 4.0,
+       "unit_price": 79.99,
+       "amount": 319.96
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_021.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "77404624",
+     "invoice_date": "2014-10-20",
+     "supplier_name": "Hayes-Mcdonald 6220 Hughes Isle East Charlesmouth, NM 82727",
+     "customer_name": "Sheppard, Guerrero and Castillo 8846 Bryan Turnpike Wallaceborough, WI 93615",
+     "subtotal": 8687.8,
+     "tax": 868.78,
+     "total": 9556.58,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "HP Desktop Computer 400 G1 Core i3 3.4GHz 8GB 256GB SSD 19\" LCD Windows 10 PC",
+       "quantity": 2.0,
+       "unit_price": 139.95,
+       "amount": 279.9
+      },
+      {
+       "description": "Lenovo C20-00...all in one desktop computer ..with Wireless Mouse....",
+       "quantity": 5.0,
+       "unit_price": 277.64,
+       "amount": 1388.2
+      },
+      {
+       "description": "AMD Quad Core Custom Built Gaming PC Computer Desktop 16GB 2TB Blue LED",
+       "quantity": 4.0,
+       "unit_price": 509.99,
+       "amount": 2039.96
+      },
+      {
+       "description": "CUSTOM BUILT AMD RYZEN THREADRIPPER GAMING COMPUTER , 32 GB RAM,",
+       "quantity": 3.0,
+       "unit_price": 1400.0,
+       "amount": 4200.0
+      },
+      {
+       "description": "Dell Desktop Computer Optiplex 790 Tower PC Core i5 8GB 500GB Windows 10 Pro",
+       "quantity": 5.0,
+       "unit_price": 149.95,
+       "amount": 749.75
+      },
+      {
+       "description": "Intel Compute Stick PC (32GB, 1.33GHz, 2GB) BOXSTCKIA32WFC + Wireless Keyboard",
+       "quantity": 1.0,
+       "unit_price": 29.99,
+       "amount": 29.99
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_022.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "32830026",
+     "invoice_date": "2014-12-20",
+     "supplier_name": "907-77-8965",
+     "customer_name": "Stewart, Fields and Scott 07095 Robert Cape Marquezburgh, DC 81706",
+     "subtotal": 1036.58,
+     "tax": 103.66,
+     "total": 1140.24,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "SONY Playstation2 Console SCPH-50000 \" Peal Color \"I TESTED 11176",
+       "quantity": 5.0,
+       "unit_price": 45.0,
+       "amount": 225.0
+      },
+      {
+       "description": "Nintendo Switch Lite Gray CONSOLE ONLY No Accessories or Charger [B5-2]",
+       "quantity": 1.0,
+       "unit_price": 135.0,
+       "amount": 135.0
+      },
+      {
+       "description": "Nintendo Wii Console RVL-001 Complete Hookups W/ Mario&Sonic; Tested / Working",
+       "quantity": 3.0,
+       "unit_price": 78.88,
+       "amount": 236.64
+      },
+      {
+       "description": "B351 Nintendo new 3DS console White Japan w/stylus pen",
+       "quantity": 4.0,
+       "unit_price": 79.99,
+       "amount": 319.96
+      },
+      {
+       "description": "Sega Saturn Console Gray HST-3200 HST-3210 Japanese",
+       "quantity": 1.0,
+       "unit_price": 119.98,
+       "amount": 119.98
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_023.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "71748307",
+     "invoice_date": "2011-12-24",
+     "supplier_name": "Velasquez, Ward and Ballard 87336 Payne Way Suite 716 Parkerton, FL 76330",
+     "customer_name": "Lewis Group 537 Wilson Parkways North Mary, AL 69775",
+     "subtotal": 1433.55,
+     "tax": 143.35,
+     "total": 1576.9,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "2pcs baby boys clothes cotton hoodied top+pants baby boys Outfits gentleman",
+       "quantity": 5.0,
+       "unit_price": 10.99,
+       "amount": 54.95
+      },
+      {
+       "description": "fire los angeles dress Medium",
+       "quantity": 2.0,
+       "unit_price": 6.5,
+       "amount": 13.0
+      },
+      {
+       "description": "PAS DE CALAIS DRESS WOMENS SIZE 36",
+       "quantity": 3.0,
+       "unit_price": 9.95,
+       "amount": 29.85
+      },
+      {
+       "description": "Zara Yellow Shift Dress XS",
+       "quantity": 5.0,
+       "unit_price": 24.75,
+       "amount": 123.75
+      },
+      {
+       "description": "miley cyrus Bubble Dress",
+       "quantity": 2.0,
+       "unit_price": 16.0,
+       "amount": 32.0
+      },
+      {
+       "description": "NWT $1200 J.Crew Silk Chiffon Ivory Wedding Dress with Beading",
+       "quantity": 4.0,
+       "unit_price": 295.0,
+       "amount": 1180.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_024.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "17619666",
+     "invoice_date": "2020-03-09",
+     "supplier_name": "Wilkerson Ltd 49006 Saunders Villages Suite 098 North Jennifer, TN 83320",
+     "customer_name": "English-Brown 56684 Tracey Ranch North Gabrielle, SC 15965",
+     "subtotal": 37654.0,
+     "tax": 3765.4,
+     "total": 41419.4,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "Used Couch Dark Blue",
+       "quantity": 2.0,
+       "unit_price": 97.0,
+       "amount": 194.0
+      },
+      {
+       "description": "Blue Shiny Stone Floral Art Dinning Table Top Marble Kitchen Table Top 48 Inches",
+       "quantity": 3.0,
+       "unit_price": 3960.0,
+       "amount": 11880.0
+      },
+      {
+       "description": "24\" Sale Online Coffee Top Table Marquetry Inlay Floral Design Christmas Gift",
+       "quantity": 5.0,
+       "unit_price": 1188.0,
+       "amount": 5940.0
+      },
+      {
+       "description": "34\"x34\" Marble Round Top Coffee Table Elephant Floral Inlaid Art Christmas Gifts",
+       "quantity": 3.0,
+       "unit_price": 1900.0,
+       "amount": 5700.0
+      },
+      {
+       "description": "35\" Round Marble Coffee Top Table Floral Marquetry Inlay Furniture Decors B430",
+       "quantity": 4.0,
+       "unit_price": 1259.0,
+       "amount": 5036.0
+      },
+      {
+       "description": "54 Inches Marble Dinning Table Top Hand Crafted Reception Table Home Furniture",
+       "quantity": 2.0,
+       "unit_price": 4452.0,
+       "amount": 8904.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  },
+  {
+   "file": "real_025.png",
+   "kind": "invoice",
+   "format": "png",
+   "quality": "real",
+   "expected": "ok",
+   "planted_issues": [],
+   "label_source": "katanaml-org/invoices-donut-data-v1",
+   "invoices": [
+    {
+     "invoice_number": "12681565",
+     "invoice_date": "2015-09-07",
+     "supplier_name": "Clay-Koch 2467 John Knolls Apt. 099 Markside, MT 79068",
+     "customer_name": "Thompson-Baker USNV Kennedy FPO AA 01185",
+     "subtotal": 3991.91,
+     "tax": 399.19,
+     "total": 4391.1,
+     "currency": "USD",
+     "line_items": [
+      {
+       "description": "N64 Nintendo System Console Lot Bundle W/ 2 Games 1 Controller Tested Working",
+       "quantity": 5.0,
+       "unit_price": 95.99,
+       "amount": 479.95
+      },
+      {
+       "description": "Original Nintendo Gaming Console with Robot, 9 games & extras",
+       "quantity": 5.0,
+       "unit_price": 475.0,
+       "amount": 2375.0
+      },
+      {
+       "description": "Nintendo BLUE Wii System Game Console Complete with 2 Motion Remotes Tested Work",
+       "quantity": 2.0,
+       "unit_price": 99.98,
+       "amount": 199.96
+      },
+      {
+       "description": "Nintendo Gameboy Pocket Console Clear Purple with Box MGB-001 Japan Tested 53",
+       "quantity": 4.0,
+       "unit_price": 85.0,
+       "amount": 340.0
+      },
+      {
+       "description": "Playstation 2 Slim console white SCPH-90000 boxed Japan PS2",
+       "quantity": 3.0,
+       "unit_price": 199.0,
+       "amount": 597.0
+      }
+     ]
+    }
+   ],
+   "name_fields_include_address": true
+  }
+ ]
+}

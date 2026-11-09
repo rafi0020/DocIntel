@@ -1,0 +1,14 @@
+# Lint configuration: run `ruff check .` from the backend directory.
+target-version = "py312"
+line-length = 140
+extend-exclude = ["storage"]
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = [
+  "E501",  # line length is handled by review, not the linter
+  "B008",  # FastAPI dependencies are declared as default arguments
+]
+
+[lint.isort]
+known-first-party = ["app", "eval", "tests"]

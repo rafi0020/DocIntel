@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "DocIntel architecture",
+    "subtitle": "Upload, background processing, review and search",
+    "output": "docs/architecture.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    { "id": "users", "type": "external", "label": "Users", "sublabel": "Browser", "pos": [40, 300], "size": [120, 60] },
+    { "id": "ui", "type": "frontend", "label": "Web UI", "sublabel": "Next.js, nginx", "pos": [250, 300], "size": [130, 60] },
+    { "id": "api", "type": "backend", "label": "API", "sublabel": "FastAPI, roles, audit", "pos": [500, 300], "size": [130, 60] },
+    { "id": "redis", "type": "messagebus", "label": "Redis", "sublabel": "RQ job queue", "pos": [710, 300], "size": [130, 60] },
+    { "id": "workers", "type": "backend", "label": "Workers", "sublabel": "OCR, extract, validate", "pos": [920, 300], "size": [130, 60], "tag": "scale with N" },
+    { "id": "db", "type": "database", "label": "PostgreSQL", "sublabel": "pgvector, full-text", "pos": [710, 470], "size": [130, 60] },
+    { "id": "files", "type": "database", "label": "File storage", "sublabel": "originals, renders", "pos": [710, 610], "size": [130, 60] },
+    { "id": "llm", "type": "cloud", "label": "LLM provider", "sublabel": "optional", "pos": [920, 140], "size": [130, 60] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "Docker Compose stack", "wraps": ["ui", "api", "redis", "workers", "db", "files"] }
+  ],
+  "connections": [
+    { "id": "users-to-ui", "from": "users", "to": "ui", "label": "HTTPS", "variant": "emphasis" },
+    { "id": "ui-to-api", "from": "ui", "to": "api", "label": "REST + cookie", "variant": "emphasis" },
+    { "id": "api-to-redis", "from": "api", "to": "redis", "label": "enqueue", "variant": "dashed" },
+    { "id": "redis-to-workers", "from": "redis", "to": "workers", "label": "dequeue", "variant": "dashed" },
+    { "id": "workers-to-llm", "from": "workers", "to": "llm", "label": "extract", "variant": "dashed" },
+    { "id": "api-to-db", "from": "api", "to": "db", "label": "SQL" },
+    { "id": "api-to-files", "from": "api", "to": "files", "label": "originals" },
+    { "id": "workers-to-db", "from": "workers", "to": "db", "label": "results" },
+    { "id": "workers-to-files", "from": "workers", "to": "files", "label": "pages" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Request path", "items": ["E-mail and password sign-in, HttpOnly session cookie", "Role check on every route: viewer, reviewer, admin", "Audit log of sign-ins, uploads, corrections and admin changes"] },
+    { "dot": "emerald", "title": "Processing", "items": ["Uploads are stored, then queued in Redis", "Workers ingest, OCR, extract, validate and index", "Rule engine plus an optional LLM, both checked against the page"] },
+    { "dot": "violet", "title": "Data and search", "items": ["Records, issues, corrections and history in PostgreSQL", "Keyword search with GIN, semantic search with pgvector", "Originals and page renders on a shared volume"] }
+  ]
+}

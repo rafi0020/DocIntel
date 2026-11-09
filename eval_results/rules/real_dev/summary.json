@@ -1,0 +1,81 @@
+{
+ "dataset": "real_dev",
+ "extractor": "rules",
+ "llm_provider": "rules",
+ "ocr_engine": "tesseract",
+ "files": 50,
+ "robustness": {
+  "expected_ok": 50,
+  "processed_ok": 50,
+  "document_success_rate_pct": 100.0,
+  "failure_rate_pct": 0.0,
+  "bad_files": 0,
+  "bad_files_rejected_gracefully": 0,
+  "bad_files_with_correct_error_code": 0,
+  "crashes": 0,
+  "outcomes": {
+   "ok_expected_ok": 50
+  }
+ },
+ "accuracy": {
+  "overall_field_accuracy_pct": 99.8,
+  "per_field_pct": {
+   "invoice_number": 100.0,
+   "invoice_date": 100.0,
+   "supplier_name": 98.0,
+   "customer_name": 100.0,
+   "subtotal": 100.0,
+   "tax": 100.0,
+   "total": 100.0,
+   "currency": 100.0
+  },
+  "hallucinated_values": {},
+  "missed_values": {},
+  "line_items": {
+   "precision_pct": 96.9,
+   "recall_pct": 95.9,
+   "f1_pct": 96.4,
+   "matched": 188,
+   "predicted": 194,
+   "expected": 196
+  },
+  "by_scan_quality_pct": {
+   "real": 99.8
+  },
+  "provenance_rejections": 0,
+  "provenance_rejection_rate_pct": 0.0
+ },
+ "validation": {
+  "planted_issues": 0,
+  "detected": 0,
+  "recall_pct": null,
+  "recall_by_code": {},
+  "clean_documents": 50,
+  "clean_documents_flagged_for_review": 4,
+  "false_alarm_rate_pct": 8.0
+ },
+ "splitting": [],
+ "cross_verification": null,
+ "speed": {
+  "total_wall_s": 79.7,
+  "per_file_ms": {
+   "p50": 1577.8,
+   "p95": 1985.8,
+   "max": 2047.3
+  },
+  "by_type_ms": {
+   "image": {
+    "n": 50,
+    "p50": 1577.8,
+    "p95": 1985.8
+   }
+  },
+  "per_page_ms": {
+   "image": {
+    "p50": 1577.8,
+    "p95": 1985.8
+   }
+  },
+  "throughput_docs_per_min": 37.7
+ }
+}

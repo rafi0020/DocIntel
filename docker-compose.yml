@@ -1,0 +1,79 @@
+# DocIntel stack: PostgreSQL (pgvector), Redis, API, background workers and the web UI.
+#   docker compose up --build
+#   UI  http://localhost:3000      API docs  http://localhost:8000/docs
+# Configuration comes from .env (see .env.example). LLM extraction is optional; without it the rule-based
+# extractor runs. Demo account credentials are listed in the README.
+name: docintel
+
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql+psycopg://docintel:${POSTGRES_PASSWORD:-docintel}@db:5432/docintel
+  REDIS_URL: redis://redis:6379/0
+  STORAGE_DIR: /data
+  CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+  API_KEY: ${API_KEY:-}
+  SECRET_KEY: ${SECRET_KEY:-}
+  SEED_DEMO_USERS: ${SEED_DEMO_USERS:-true}
+  ALLOW_SIGNUP: ${ALLOW_SIGNUP:-true}
+  COOKIE_SECURE: ${COOKIE_SECURE:-false}
+  SESSION_HOURS: ${SESSION_HOURS:-12}
+  REMEMBER_DAYS: ${REMEMBER_DAYS:-30}
+  BOOTSTRAP_ADMIN_EMAIL: ${BOOTSTRAP_ADMIN_EMAIL:-}
+  BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:-}
+  DEMO_ADMIN_PASSWORD: ${DEMO_ADMIN_PASSWORD:-Admin#Demo2026}
+  DEMO_REVIEWER_PASSWORD: ${DEMO_REVIEWER_PASSWORD:-Reviewer#Demo2026}
+  DEMO_VIEWER_PASSWORD: ${DEMO_VIEWER_PASSWORD:-Viewer#Demo2026}
+  LLM_PROVIDER: ${LLM_PROVIDER:-rules}
+  LLM_MODEL: ${LLM_MODEL:-}
+  LLM_API_KEY: ${LLM_API_KEY:-}
+  LLM_BASE_URL: ${LLM_BASE_URL:-}
+  OCR_ENGINE: ${OCR_ENGINE:-tesseract}
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: docintel
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-docintel}
+      POSTGRES_DB: docintel
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U docintel"]
+      interval: 3s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      retries: 20
+
+  api:
+    build: ./backend
+    environment: *backend-env
+    volumes: [files:/data]
+    ports: ["8000:8000"]
+    depends_on:
+      db: { condition: service_healthy }
+      redis: { condition: service_healthy }
+
+  worker:
+    build: ./backend
+    command: ["python", "-m", "app.worker.run", "--workers", "${WORKERS:-2}"]
+    environment: *backend-env
+    volumes: [files:/data]
+    depends_on:
+      db: { condition: service_healthy }
+      redis: { condition: service_healthy }
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:8000}
+    ports: ["3000:80"]
+    depends_on: [api]
+
+volumes:
+  pgdata:
+  files:
