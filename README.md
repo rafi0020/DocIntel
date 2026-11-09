@@ -41,9 +41,9 @@ to a signed-in user.
 
 ## Architecture
 
-![DocIntel architecture](docs/architecture.png)
+[![DocIntel architecture (interactive)](docs/architecture.png)](https://rafi0020.github.io/DocIntel/docs/architecture.html)
 
-[Interactive diagram](docs/architecture.html) · [Architecture notes](docs/ARCHITECTURE.md) · [Database schema](docs/DATABASE.md) · [API reference](docs/API.md)
+[Open interactive diagram](https://rafi0020.github.io/DocIntel/docs/architecture.html) · [Architecture notes](docs/ARCHITECTURE.md) · [Database schema](docs/DATABASE.md) · [API reference](docs/API.md)
 
 | Layer | Technology |
 |---|---|
