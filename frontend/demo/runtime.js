@@ -172,6 +172,15 @@
         var hit = lookup(scopes[i], req.key, req.path);
         if (hit) { var chosen = pick(hit, (currentUser() || "anon") + req.key, req.path); return respond(chosen.status, chosen.body); }
       }
+      // Not recorded for this account: another account's recording of the same page is better than nothing,
+      // except for anything about who is signed in.
+      if (currentUser() && req.path.indexOf("/auth/") < 0) {
+        var names = Object.keys(fixtures.users);
+        for (var n = 0; n < names.length; n++) {
+          var other = lookup(fixtures.users[names[n]], req.key, req.path);
+          if (other) { var picked = pick(other, names[n] + req.key, req.path); return respond(picked.status, picked.body); }
+        }
+      }
       if (!currentUser() && req.path.indexOf("/auth/") < 0) return respond(401, { detail: "Not signed in." });
       if (req.path.indexOf("/auth/me") > 0) return respond(401, { detail: "Not signed in." });
       console.warn("demo: not recorded", method, req.key);
@@ -179,8 +188,10 @@
     }
 
     arm(req.path);
-    for (var j = 0; j < scopes.length; j++) {
-      var list = (scopes[j].writes || {})[method + " " + req.path];
+    // An action recorded under one account (a call placed by the agent) also works for the others.
+    var everyone = scopes.concat(Object.keys(fixtures.users).map(function (k) { return fixtures.users[k]; }));
+    for (var j = 0; j < everyone.length; j++) {
+      var list = (everyone[j].writes || {})[method + " " + req.path];
       if (list && list.length) { var w = bestWrite(list, body, method + req.path); return respond(w.status, w.body); }
     }
     if (!currentUser()) return respond(401, { detail: "Not signed in." });
