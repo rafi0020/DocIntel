@@ -9,6 +9,8 @@ to a signed-in user.
 
 ![DocIntel dashboard](docs/screenshots/01-dashboard.png)
 
+**[Live demo](https://rafi0020.github.io/DocIntel/)**: the real web interface on GitHub Pages, answered from responses recorded on the running system (API, database, worker and model). Sign in with a demo account from the login page. Runs replay as they were recorded and changes are not saved. [How the demo works](frontend/demo/README.md).
+
 ## Features
 
 **Processing**
@@ -43,7 +45,7 @@ to a signed-in user.
 
 ![DocIntel architecture](docs/architecture.gif)
 
-[Interactive diagram](https://rafi0020.github.io/DocIntel/docs/architecture.html) · [Architecture notes](docs/ARCHITECTURE.md) · [Database schema](docs/DATABASE.md) · [API reference](docs/API.md)
+[Live demo](https://rafi0020.github.io/DocIntel/) · [Architecture diagram](https://rafi0020.github.io/DocIntel/diagram/) · [Architecture notes](docs/ARCHITECTURE.md) · [Database schema](docs/DATABASE.md) · [API reference](docs/API.md)
 
 | Layer | Technology |
 |---|---|
