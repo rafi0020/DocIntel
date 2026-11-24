@@ -13,7 +13,17 @@
   var USER_KEY = "demo.user";
   var realFetch = window.fetch.bind(window);
   var fixtures = null;
-  var ready = realFetch(BASE + "/demo/fixtures.json").then(function (r) { return r.json(); }).then(function (f) { fixtures = f; return f; });
+  // The fixtures are one file; if the host hiccups (a 503 now and then), try again rather than leave the page dead.
+  function load(attempt) {
+    return realFetch(BASE + "/demo/fixtures.json").then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).catch(function (e) {
+      if (attempt >= 5) throw e;
+      return new Promise(function (done) { setTimeout(done, 400 * (attempt + 1)); }).then(function () { return load(attempt + 1); });
+    });
+  }
+  var ready = load(0).then(function (f) { fixtures = f; return f; });
   var seqStart = {};
 
   function store(get, set) {
